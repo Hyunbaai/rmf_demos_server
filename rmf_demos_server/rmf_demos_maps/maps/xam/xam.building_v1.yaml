@@ -1,0 +1,76 @@
+coordinate_system: reference_image
+crowd_sim:
+  agent_groups:
+    - {agents_name: [xamrobot], agents_number: 1, group_id: 0, profile_selector: external_agent, state_selector: external_static, x: 0, y: 0}
+  agent_profiles:
+    - {ORCA_tau: 1, ORCA_tauObst: 0.40000000000000002, class: 1, max_accel: 0, max_angle_vel: 0, max_neighbors: 10, max_speed: 0, name: external_agent, neighbor_dist: 5, obstacle_set: 1, pref_speed: 0, r: 0.25}
+  enable: 0
+  goal_sets: []
+  model_types: []
+  obstacle_set: {class: 1, file_name: L1_navmesh.nav, type: nav_mesh}
+  states:
+    - {final: 1, goal_set: -1, name: external_static, navmesh_file_name: ""}
+  transitions: []
+  update_time_step: 0.10000000000000001
+graphs:
+  {}
+levels:
+  L1:
+    drawing:
+      filename: xam_250218.png
+    elevation: 0
+    floors:
+      - parameters: {ceiling_scale: [3, 1], ceiling_texture: [1, blue_linoleum], indoor: [2, 0], texture_name: [1, blue_linoleum], texture_rotation: [3, 0], texture_scale: [3, 1]}
+        vertices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    lanes:
+      - [12, 13, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [13, 14, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [14, 15, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [15, 16, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [16, 13, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+    layers:
+      {}
+    measurements:
+      - [21, 22, {distance: [3, 4.5]}]
+      - [23, 24, {distance: [3, 6.2999999999999998]}]
+    vertices:
+      - [3.8860000000000001, 115.208, 0, ""]
+      - [42.831000000000003, 114.417, 0, ""]
+      - [60.029000000000003, 120.941, 0, ""]
+      - [127.04600000000001, 118.568, 0, ""]
+      - [127.837, 170.363, 0, ""]
+      - [36.899999999999999, 169.17699999999999, 0, ""]
+      - [36.109000000000002, 192.50399999999999, 0, ""]
+      - [18.515000000000001, 191.71299999999999, 0, ""]
+      - [19.701000000000001, 152.17500000000001, 0, ""]
+      - [44.807000000000002, 153.95500000000001, 0, ""]
+      - [45.005000000000003, 138.733, 0, ""]
+      - [2.7000000000000002, 135.965, 0, ""]
+      - [12.98, 126.08, 0, charger, {is_charger: [4, true], is_parking_spot: [4, true], spawn_robot_name: [1, xamrobot], spawn_robot_type: [1, Turtlebot3]}]
+      - [71.298000000000002, 131.61600000000001, 0, p1]
+      - [115.185, 129.441, 0, p2]
+      - [116.568, 161.86199999999999, 0, p3]
+      - [61.610999999999997, 155.14099999999999, 0, p4]
+      - [4.0839999999999996, 115.208, 0, r1]
+      - [60.029000000000003, 121.336, 0, r2]
+      - [128.82499999999999, 177.084, 0, r3]
+      - [18.91, 170.16499999999999, 0, r4]
+      - [136.99100000000001, 118.096, 0, ""]
+      - [136.828, 203.125, 0, ""]
+      - [3.5840000000000001, 204.428, 0, ""]
+      - [134.059, 203.77600000000001, 0, ""]
+    walls:
+      - [0, 1, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [1, 2, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [2, 3, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [3, 4, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [4, 5, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [5, 6, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [6, 7, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [7, 8, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [8, 9, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [9, 10, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [10, 11, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+      - [11, 0, {alpha: [3, 1], texture_height: [3, 2.5], texture_name: [1, default], texture_scale: [3, 1], texture_width: [3, 1]}]
+lifts: {}
+name: xam

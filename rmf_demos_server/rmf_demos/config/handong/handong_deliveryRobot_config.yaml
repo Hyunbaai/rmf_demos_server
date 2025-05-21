@@ -1,0 +1,74 @@
+# FLEET CONFIG =================================================================
+# RMF Fleet parameters
+
+rmf_fleet:
+  name: "handong_fleet"
+  limits:
+    linear: [0.7, 0.4] # velocity, acceleration
+    angular: [0.6, 2.0] # velocity, acceleration
+  profile: # Robot profile is modelled as a circle
+    footprint: 0.3 # radius in m
+    vicinity: 0.4 # radius in m
+  reversible: False # whether robots in this fleet can reverse
+  # TODO Update battery parameters with actual specs
+  battery_system:
+    voltage: 24.0 # V
+    capacity: 40.0 # Ahr
+    charging_current: 8.8 # A
+  mechanical_system:
+    mass: 70.0 # kg
+    moment_of_inertia: 40.0 #kgm^2
+    friction_coefficient: 0.22
+  ambient_system:
+    power: 20.0 # W
+  tool_system:
+    power: 0.0 # W
+  recharge_threshold: 0.10 # Battery level below which robots in this fleet will not operate
+  recharge_soc: 1.0 # Battery level to which robots in this fleet should be charged up to during recharging tasks
+  max_delay: 15.0 # allowed seconds of delay of the current itinerary before it gets interrupted and replanned
+  publish_fleet_state: 10.0 # Publish frequency for fleet state, ensure that it is same as robot_state_update_frequency
+  account_for_battery_drain: False
+  task_capabilities: # Specify the types of RMF Tasks that robots in this fleet are capable of performing
+    loop: True
+    delivery: True
+  actions: ["teleop"]
+  finishing_request: "nothing" # [park, charge, nothing]
+  responsive_wait: False # Should responsive wait be on/off for the whole fleet by default? False if not specified.
+  robots:
+    #Genesis:
+      #charger: "Genesis_Station(purple)"
+      #responsive_wait: True
+    #Ark:
+      #charger: "Genesis_Station(pink)"
+      #responsive_wait: True
+    blue:
+      charger: "s1"
+      responsive_wait: True
+      destination_paths: [ [ "p1-1", "d1-1" ], [ "p1-1", "d1-2" ], [ "p2-1", "d2-1" ], [ "p2-1", "d2-2" ], [ "p2-1", "p3-1", "d3-1" ], [ "p2-1", "p3-1", "d3-2" ], [ "p2-1", "p3-1", "p4-1-1", "p4-1-2", "d4-1" ], [ "p2-1", "p3-1", "p4-1-1", "p4-1-2", "d4-2" ] ]
+      recursive_paths: [ [ "p1-2", "s1" ], [ "p2-2", "s1" ], [ "p3-2", "p2-2", "s1" ], [ "p4-2-2", "p4-2-1", "p3-2", "p2-2", "s1" ] ]
+
+    pink:
+      charger: "s2"
+      responsive_wait: True
+      destination_paths: [ [ "p1-1", "d1-1" ], [ "p1-1", "d1-2" ], [ "p2-1", "d2-1" ], [ "p2-1", "d2-2" ], [ "p2-1", "p3-1", "d3-1" ], [ "p2-1", "p3-1", "d3-2" ], [ "p2-1", "p3-1", "p4-1-1", "p4-1-2", "d4-1" ], [ "p2-1", "p3-1", "p4-1-1", "p4-1-2", "d4-2" ] ]
+      recursive_paths: [ [ "p1-2", "s2" ], [ "p2-2", "s2" ], [ "p3-2", "p2-2", "s2" ], [ "p4-2-2", "p4-2-1", "p3-2", "p2-2", "s2" ] ]
+
+    orange:
+      charger: "s3"
+      responsive_wait: True
+
+    green:
+      charger: "s4"
+      responsive_wait: True
+      destination_paths: [ ["p2-1", "p3-1", "d3-1"], ["p2-1", "p3-1", "d3-2"], ["p2-1 ", "p3-1", "p4-1-1", "p4-1-2", "d4-1"], ["p2-1", "p3-1", "p4-1-1", "p4-1-2", "d4-2"], ["p2-1", "p3-1", "p4-1-1", "p4-1-2", "p5-1-1", "p5-1-2", "d5-1"], ["p2-1", "p3-1", "p4-1-1", "p4-1-2", "p5-1-1", "p5-1-2", "d5-2"] ]
+      recursive_paths: [ ["p3-2", "p2-2", "s4"], ["p4-2-2", "p4-2-1", "p3-2", "p2-2", "s4"], ["p5-2-2", "p5-2-1", "p4-2-2", "p4-2-1", "p3-2", "p2-2", "s4"] ]
+  zero_path: "/home/zetabank/ros2_ws/install/rmf_demos_maps/share/rmf_demos_maps/maps/handong/nav_graphs/0.yaml"
+
+fleet_manager:
+  ip: "127.0.0.1"
+  port: 22012
+  user: "some_user"
+  password: "some_password"
+  robot_state_update_frequency: 5.0
+  reference_coordinates:
+    offset: [22000, 31500] # offset from RMF cartesian frame to SVY21 cartesian frame

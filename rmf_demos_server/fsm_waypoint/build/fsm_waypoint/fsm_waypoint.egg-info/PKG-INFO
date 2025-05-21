@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fsm-waypoint
+Version: 0.0.1
+Summary: Receive PVD data and send it to the Kafka broker.
+Home-page: UNKNOWN
+Author: Bcchoi
+Author-email: zaxrok@gmail.com
+Maintainer: bcchoi
+Maintainer-email: zaxroK@gmail.com
+License: Apache License, Version 2.0
+Keywords: ROS
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+
+UNKNOWN
+

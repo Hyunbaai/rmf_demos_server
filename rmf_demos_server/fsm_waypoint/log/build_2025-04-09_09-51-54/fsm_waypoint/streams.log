@@ -1,0 +1,276 @@
+[0.611s] Invoking command in '/home/zeta/rmf_demos_server/fsm_waypoint': PYTHONPATH=/home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/fsm_waypoint build --build-base /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build install --record /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/install.log --single-version-externally-managed install_data
+[0.854s] running egg_info
+[0.855s] creating build/fsm_waypoint/fsm_waypoint.egg-info
+[0.855s] writing build/fsm_waypoint/fsm_waypoint.egg-info/PKG-INFO
+[0.855s] writing dependency_links to build/fsm_waypoint/fsm_waypoint.egg-info/dependency_links.txt
+[0.855s] writing entry points to build/fsm_waypoint/fsm_waypoint.egg-info/entry_points.txt
+[0.855s] writing requirements to build/fsm_waypoint/fsm_waypoint.egg-info/requires.txt
+[0.855s] writing top-level names to build/fsm_waypoint/fsm_waypoint.egg-info/top_level.txt
+[0.855s] writing manifest file 'build/fsm_waypoint/fsm_waypoint.egg-info/SOURCES.txt'
+[0.858s] reading manifest file 'build/fsm_waypoint/fsm_waypoint.egg-info/SOURCES.txt'
+[0.859s] writing manifest file 'build/fsm_waypoint/fsm_waypoint.egg-info/SOURCES.txt'
+[0.859s] running build
+[0.859s] running build_py
+[0.859s] creating /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build
+[0.859s] creating /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib
+[0.859s] creating /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint
+[0.859s] copying fsm_waypoint/fsm_waypoint_node.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint
+[0.859s] copying fsm_waypoint/__init__.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint
+[0.860s] creating /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states
+[0.860s] copying fsm_waypoint/states/__init__.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states
+[0.860s] creating /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/utils
+[0.860s] copying fsm_waypoint/utils/concurrence_callback.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/utils
+[0.860s] copying fsm_waypoint/utils/logger2.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/utils
+[0.860s] copying fsm_waypoint/utils/__init__.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/utils
+[0.860s] copying fsm_waypoint/utils/blackboard.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/utils
+[0.860s] copying fsm_waypoint/utils/gps_utils.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/utils
+[0.860s] creating /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/scenario
+[0.860s] copying fsm_waypoint/scenario/obstacle.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/scenario
+[0.860s] copying fsm_waypoint/scenario/update.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/scenario
+[0.860s] copying fsm_waypoint/scenario/waypoint.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/scenario
+[0.861s] copying fsm_waypoint/scenario/bearing.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/scenario
+[0.861s] copying fsm_waypoint/scenario/repath.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/scenario
+[0.861s] copying fsm_waypoint/scenario/rewaypoint.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/scenario
+[0.861s] copying fsm_waypoint/scenario/__init__.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/scenario
+[0.861s] copying fsm_waypoint/scenario/create.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/scenario
+[0.861s] copying fsm_waypoint/scenario/bringup.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/scenario
+[0.861s] copying fsm_waypoint/scenario/ready.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/scenario
+[0.861s] copying fsm_waypoint/scenario/path.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/scenario
+[0.861s] creating /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/tasks
+[0.861s] copying fsm_waypoint/tasks/wss_command.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/tasks
+[0.861s] copying fsm_waypoint/tasks/emergency_stop.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/tasks
+[0.861s] copying fsm_waypoint/tasks/gps_wheel_control.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/tasks
+[0.861s] copying fsm_waypoint/tasks/update_waypoint.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/tasks
+[0.862s] copying fsm_waypoint/tasks/initialize_bearing.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/tasks
+[0.862s] copying fsm_waypoint/tasks/create_waypoint.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/tasks
+[0.862s] copying fsm_waypoint/tasks/network_error.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/tasks
+[0.862s] copying fsm_waypoint/tasks/follow_gps_path.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/tasks
+[0.862s] copying fsm_waypoint/tasks/__init__.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/tasks
+[0.862s] copying fsm_waypoint/tasks/detect_object.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/tasks
+[0.862s] copying fsm_waypoint/tasks/spin_once.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/tasks
+[0.862s] copying fsm_waypoint/tasks/planner_select.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/tasks
+[0.862s] creating /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/navigator
+[0.862s] copying fsm_waypoint/states/navigator/FollowGpsWaypointsByGeopose.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/navigator
+[0.863s] copying fsm_waypoint/states/navigator/GoToPose.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/navigator
+[0.863s] copying fsm_waypoint/states/navigator/RMFGoToPose.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/navigator
+[0.863s] copying fsm_waypoint/states/navigator/GpsWheelControlByCalculation.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/navigator
+[0.863s] copying fsm_waypoint/states/navigator/__init__.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/navigator
+[0.863s] copying fsm_waypoint/states/navigator/RMFNavToPose.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/navigator
+[0.863s] copying fsm_waypoint/states/navigator/FollowGpsWaypointsBySnapshot.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/navigator
+[0.863s] copying fsm_waypoint/states/navigator/GpsWheelControlByWaypoint.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/navigator
+[0.863s] creating /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/publisher
+[0.863s] copying fsm_waypoint/states/publisher/RMFRobotState.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/publisher
+[0.863s] copying fsm_waypoint/states/publisher/ChangePlannerSelect.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/publisher
+[0.863s] copying fsm_waypoint/states/publisher/RestartPM2.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/publisher
+[0.864s] copying fsm_waypoint/states/publisher/AccessoryActionClient.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/publisher
+[0.864s] copying fsm_waypoint/states/publisher/SoundPlay.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/publisher
+[0.864s] copying fsm_waypoint/states/publisher/WheelControl.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/publisher
+[0.864s] copying fsm_waypoint/states/publisher/__init__.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/publisher
+[0.864s] copying fsm_waypoint/states/publisher/CaptureImageClient.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/publisher
+[0.864s] copying fsm_waypoint/states/publisher/FleetManager.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/publisher
+[0.864s] creating /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber
+[0.864s] copying fsm_waypoint/states/subscriber/GetAccessoryStatus.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber
+[0.864s] copying fsm_waypoint/states/subscriber/CheckReleaseFromRecovery.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber
+[0.865s] copying fsm_waypoint/states/subscriber/GetRobotID.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber
+[0.865s] copying fsm_waypoint/states/subscriber/GetWssNavFnCommand.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber
+[0.865s] copying fsm_waypoint/states/subscriber/CheckAccuracy.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber
+[0.865s] copying fsm_waypoint/states/subscriber/GetBumperEmergency.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber
+[0.865s] copying fsm_waypoint/states/subscriber/GetA012Emergency.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber
+[0.865s] copying fsm_waypoint/states/subscriber/GetWssCancelCommand.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber
+[0.865s] copying fsm_waypoint/states/subscriber/GetA012Release.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber
+[0.865s] copying fsm_waypoint/states/subscriber/CheckObjectDetect.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber
+[0.865s] copying fsm_waypoint/states/subscriber/GetBumperRelease.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber
+[0.865s] copying fsm_waypoint/states/subscriber/GetNetworkStatus.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber
+[0.865s] copying fsm_waypoint/states/subscriber/GetWssCommand.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber
+[0.865s] copying fsm_waypoint/states/subscriber/__init__.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber
+[0.866s] copying fsm_waypoint/states/subscriber/RobotStateSubscriber.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber
+[0.866s] copying fsm_waypoint/states/subscriber/CheckAlertFromRecovery.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber
+[0.866s] copying fsm_waypoint/states/subscriber/GetGpsFiltered.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber
+[0.866s] copying fsm_waypoint/states/subscriber/CheckGlobalCostmap.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber
+[0.866s] copying fsm_waypoint/states/subscriber/GetRobotHeading.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber
+[0.866s] creating /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/lib
+[0.866s] copying fsm_waypoint/states/lib/CheckPingNetwork.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/lib
+[0.866s] copying fsm_waypoint/states/lib/CheckLifecycleStates.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/lib
+[0.866s] copying fsm_waypoint/states/lib/PreemptedTimeout.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/lib
+[0.866s] copying fsm_waypoint/states/lib/__init__.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/lib
+[0.866s] copying fsm_waypoint/states/lib/CalculateBearing.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/lib
+[0.867s] copying fsm_waypoint/states/lib/RunSpinOnce.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/lib
+[0.867s] copying fsm_waypoint/states/lib/UpdateWaypoint.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/lib
+[0.867s] copying fsm_waypoint/states/lib/LoadingWaypoints.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/lib
+[0.867s] copying fsm_waypoint/states/lib/CreateWaypoint.py -> /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/lib
+[0.868s] running install
+[0.868s] running install_lib
+[0.869s] creating /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint
+[0.869s] creating /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states
+[0.869s] creating /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/navigator
+[0.869s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/navigator/FollowGpsWaypointsByGeopose.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/navigator
+[0.869s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/navigator/GoToPose.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/navigator
+[0.869s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/navigator/RMFGoToPose.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/navigator
+[0.869s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/navigator/GpsWheelControlByCalculation.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/navigator
+[0.869s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/navigator/__init__.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/navigator
+[0.870s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/navigator/RMFNavToPose.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/navigator
+[0.870s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/navigator/FollowGpsWaypointsBySnapshot.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/navigator
+[0.870s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/navigator/GpsWheelControlByWaypoint.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/navigator
+[0.870s] creating /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/publisher
+[0.870s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/publisher/RMFRobotState.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/publisher
+[0.870s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/publisher/ChangePlannerSelect.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/publisher
+[0.870s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/publisher/RestartPM2.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/publisher
+[0.870s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/publisher/AccessoryActionClient.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/publisher
+[0.870s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/publisher/SoundPlay.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/publisher
+[0.870s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/publisher/WheelControl.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/publisher
+[0.870s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/publisher/__init__.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/publisher
+[0.870s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/publisher/CaptureImageClient.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/publisher
+[0.870s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/publisher/FleetManager.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/publisher
+[0.871s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/__init__.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states
+[0.871s] creating /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber
+[0.871s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber/GetAccessoryStatus.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber
+[0.871s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber/CheckReleaseFromRecovery.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber
+[0.871s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber/GetRobotID.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber
+[0.871s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber/GetWssNavFnCommand.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber
+[0.871s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber/CheckAccuracy.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber
+[0.871s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber/GetBumperEmergency.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber
+[0.871s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber/GetA012Emergency.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber
+[0.871s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber/GetWssCancelCommand.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber
+[0.871s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber/GetA012Release.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber
+[0.871s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber/CheckObjectDetect.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber
+[0.872s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber/GetBumperRelease.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber
+[0.872s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber/GetNetworkStatus.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber
+[0.872s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber/GetWssCommand.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber
+[0.872s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber/__init__.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber
+[0.872s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber/RobotStateSubscriber.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber
+[0.872s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber/CheckAlertFromRecovery.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber
+[0.872s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber/GetGpsFiltered.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber
+[0.872s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber/CheckGlobalCostmap.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber
+[0.872s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/subscriber/GetRobotHeading.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber
+[0.872s] creating /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/lib
+[0.872s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/lib/CheckPingNetwork.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/lib
+[0.872s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/lib/CheckLifecycleStates.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/lib
+[0.872s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/lib/PreemptedTimeout.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/lib
+[0.873s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/lib/__init__.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/lib
+[0.873s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/lib/CalculateBearing.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/lib
+[0.873s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/lib/RunSpinOnce.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/lib
+[0.873s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/lib/UpdateWaypoint.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/lib
+[0.873s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/lib/LoadingWaypoints.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/lib
+[0.873s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/states/lib/CreateWaypoint.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/lib
+[0.873s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/fsm_waypoint_node.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint
+[0.873s] creating /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/utils
+[0.873s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/utils/concurrence_callback.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/utils
+[0.873s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/utils/logger2.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/utils
+[0.873s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/utils/__init__.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/utils
+[0.873s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/utils/blackboard.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/utils
+[0.873s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/utils/gps_utils.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/utils
+[0.874s] creating /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/scenario
+[0.874s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/scenario/obstacle.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/scenario
+[0.874s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/scenario/update.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/scenario
+[0.874s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/scenario/waypoint.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/scenario
+[0.874s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/scenario/bearing.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/scenario
+[0.874s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/scenario/repath.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/scenario
+[0.874s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/scenario/rewaypoint.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/scenario
+[0.874s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/scenario/__init__.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/scenario
+[0.874s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/scenario/create.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/scenario
+[0.874s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/scenario/bringup.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/scenario
+[0.874s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/scenario/ready.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/scenario
+[0.874s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/scenario/path.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/scenario
+[0.874s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/__init__.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint
+[0.875s] creating /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/tasks
+[0.875s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/tasks/wss_command.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/tasks
+[0.875s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/tasks/emergency_stop.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/tasks
+[0.875s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/tasks/gps_wheel_control.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/tasks
+[0.875s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/tasks/update_waypoint.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/tasks
+[0.875s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/tasks/initialize_bearing.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/tasks
+[0.875s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/tasks/create_waypoint.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/tasks
+[0.875s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/tasks/network_error.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/tasks
+[0.875s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/tasks/follow_gps_path.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/tasks
+[0.875s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/tasks/__init__.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/tasks
+[0.875s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/tasks/detect_object.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/tasks
+[0.875s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/tasks/spin_once.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/tasks
+[0.875s] copying /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build/lib/fsm_waypoint/tasks/planner_select.py -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/tasks
+[0.875s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/navigator/FollowGpsWaypointsByGeopose.py to FollowGpsWaypointsByGeopose.cpython-310.pyc
+[0.876s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/navigator/GoToPose.py to GoToPose.cpython-310.pyc
+[0.877s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/navigator/RMFGoToPose.py to RMFGoToPose.cpython-310.pyc
+[0.879s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/navigator/GpsWheelControlByCalculation.py to GpsWheelControlByCalculation.cpython-310.pyc
+[0.879s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/navigator/__init__.py to __init__.cpython-310.pyc
+[0.879s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/navigator/RMFNavToPose.py to RMFNavToPose.cpython-310.pyc
+[0.881s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/navigator/FollowGpsWaypointsBySnapshot.py to FollowGpsWaypointsBySnapshot.cpython-310.pyc
+[0.882s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/navigator/GpsWheelControlByWaypoint.py to GpsWheelControlByWaypoint.cpython-310.pyc
+[0.882s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/publisher/RMFRobotState.py to RMFRobotState.cpython-310.pyc
+[0.883s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/publisher/ChangePlannerSelect.py to ChangePlannerSelect.cpython-310.pyc
+[0.883s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/publisher/RestartPM2.py to RestartPM2.cpython-310.pyc
+[0.884s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/publisher/AccessoryActionClient.py to AccessoryActionClient.cpython-310.pyc
+[0.884s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/publisher/SoundPlay.py to SoundPlay.cpython-310.pyc
+[0.885s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/publisher/WheelControl.py to WheelControl.cpython-310.pyc
+[0.885s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/publisher/__init__.py to __init__.cpython-310.pyc
+[0.885s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/publisher/CaptureImageClient.py to CaptureImageClient.cpython-310.pyc
+[0.886s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/publisher/FleetManager.py to FleetManager.cpython-310.pyc
+[0.890s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/__init__.py to __init__.cpython-310.pyc
+[0.890s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber/GetAccessoryStatus.py to GetAccessoryStatus.cpython-310.pyc
+[0.890s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber/CheckReleaseFromRecovery.py to CheckReleaseFromRecovery.cpython-310.pyc
+[0.891s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber/GetRobotID.py to GetRobotID.cpython-310.pyc
+[0.891s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber/GetWssNavFnCommand.py to GetWssNavFnCommand.cpython-310.pyc
+[0.892s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber/CheckAccuracy.py to CheckAccuracy.cpython-310.pyc
+[0.892s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber/GetBumperEmergency.py to GetBumperEmergency.cpython-310.pyc
+[0.893s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber/GetA012Emergency.py to GetA012Emergency.cpython-310.pyc
+[0.893s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber/GetWssCancelCommand.py to GetWssCancelCommand.cpython-310.pyc
+[0.893s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber/GetA012Release.py to GetA012Release.cpython-310.pyc
+[0.894s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber/CheckObjectDetect.py to CheckObjectDetect.cpython-310.pyc
+[0.894s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber/GetBumperRelease.py to GetBumperRelease.cpython-310.pyc
+[0.895s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber/GetNetworkStatus.py to GetNetworkStatus.cpython-310.pyc
+[0.895s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber/GetWssCommand.py to GetWssCommand.cpython-310.pyc
+[0.896s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber/__init__.py to __init__.cpython-310.pyc
+[0.896s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber/RobotStateSubscriber.py to RobotStateSubscriber.cpython-310.pyc
+[0.896s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber/CheckAlertFromRecovery.py to CheckAlertFromRecovery.cpython-310.pyc
+[0.897s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber/GetGpsFiltered.py to GetGpsFiltered.cpython-310.pyc
+[0.897s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber/CheckGlobalCostmap.py to CheckGlobalCostmap.cpython-310.pyc
+[0.898s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/subscriber/GetRobotHeading.py to GetRobotHeading.cpython-310.pyc
+[0.898s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/lib/CheckPingNetwork.py to CheckPingNetwork.cpython-310.pyc
+[0.899s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/lib/CheckLifecycleStates.py to CheckLifecycleStates.cpython-310.pyc
+[0.899s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/lib/PreemptedTimeout.py to PreemptedTimeout.cpython-310.pyc
+[0.899s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/lib/__init__.py to __init__.cpython-310.pyc
+[0.900s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/lib/CalculateBearing.py to CalculateBearing.cpython-310.pyc
+[0.900s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/lib/RunSpinOnce.py to RunSpinOnce.cpython-310.pyc
+[0.900s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/lib/UpdateWaypoint.py to UpdateWaypoint.cpython-310.pyc
+[0.901s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/lib/LoadingWaypoints.py to LoadingWaypoints.cpython-310.pyc
+[0.901s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/states/lib/CreateWaypoint.py to CreateWaypoint.cpython-310.pyc
+[0.902s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/fsm_waypoint_node.py to fsm_waypoint_node.cpython-310.pyc
+[0.903s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/utils/concurrence_callback.py to concurrence_callback.cpython-310.pyc
+[0.903s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/utils/logger2.py to logger2.cpython-310.pyc
+[0.904s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/utils/__init__.py to __init__.cpython-310.pyc
+[0.904s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/utils/blackboard.py to blackboard.cpython-310.pyc
+[0.904s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/utils/gps_utils.py to gps_utils.cpython-310.pyc
+[0.904s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/scenario/obstacle.py to obstacle.cpython-310.pyc
+[0.905s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/scenario/update.py to update.cpython-310.pyc
+[0.905s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/scenario/waypoint.py to waypoint.cpython-310.pyc
+[0.905s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/scenario/bearing.py to bearing.cpython-310.pyc
+[0.905s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/scenario/repath.py to repath.cpython-310.pyc
+[0.906s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/scenario/rewaypoint.py to rewaypoint.cpython-310.pyc
+[0.906s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/scenario/__init__.py to __init__.cpython-310.pyc
+[0.906s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/scenario/create.py to create.cpython-310.pyc
+[0.907s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/scenario/bringup.py to bringup.cpython-310.pyc
+[0.907s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/scenario/ready.py to ready.cpython-310.pyc
+[0.907s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/scenario/path.py to path.cpython-310.pyc
+[0.908s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/__init__.py to __init__.cpython-310.pyc
+[0.908s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/tasks/wss_command.py to wss_command.cpython-310.pyc
+[0.908s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/tasks/emergency_stop.py to emergency_stop.cpython-310.pyc
+[0.909s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/tasks/gps_wheel_control.py to gps_wheel_control.cpython-310.pyc
+[0.909s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/tasks/update_waypoint.py to update_waypoint.cpython-310.pyc
+[0.909s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/tasks/initialize_bearing.py to initialize_bearing.cpython-310.pyc
+[0.910s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/tasks/create_waypoint.py to create_waypoint.cpython-310.pyc
+[0.910s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/tasks/network_error.py to network_error.cpython-310.pyc
+[0.910s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/tasks/follow_gps_path.py to follow_gps_path.cpython-310.pyc
+[0.911s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/tasks/__init__.py to __init__.cpython-310.pyc
+[0.911s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/tasks/detect_object.py to detect_object.cpython-310.pyc
+[0.911s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/tasks/spin_once.py to spin_once.cpython-310.pyc
+[0.911s] byte-compiling /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint/tasks/planner_select.py to planner_select.cpython-310.pyc
+[0.912s] running install_data
+[0.912s] creating /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/share/ament_index
+[0.912s] creating /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/share/ament_index/resource_index
+[0.912s] creating /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/share/ament_index/resource_index/packages
+[0.912s] copying resource/fsm_waypoint -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/share/ament_index/resource_index/packages
+[0.912s] copying package.xml -> /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/share/fsm_waypoint
+[0.912s] creating /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/share/fsm_waypoint/config
+[0.912s] running install_egg_info
+[0.914s] Copying build/fsm_waypoint/fsm_waypoint.egg-info to /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages/fsm_waypoint-0.0.1-py3.10.egg-info
+[0.914s] running install_scripts
+[0.933s] Installing fsm_waypoint_node script to /home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/fsm_waypoint
+[0.935s] writing list of installed files to '/home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/install.log'
+[0.952s] Invoked command in '/home/zeta/rmf_demos_server/fsm_waypoint' returned '0': PYTHONPATH=/home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zeta/rmf_demos_server/fsm_waypoint/install/fsm_waypoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/fsm_waypoint build --build-base /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/build install --record /home/zeta/rmf_demos_server/fsm_waypoint/build/fsm_waypoint/install.log --single-version-externally-managed install_data

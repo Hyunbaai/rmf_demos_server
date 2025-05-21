@@ -1,0 +1,15 @@
+
+<!-- rviz2 -d $(ros2 pkg prefix - -share rviz_satellite)/launch/demo.rviz
+ros2 run rviz_satellite publish_demo_data.py LATITUDE LONGITUDE -->
+
+<launch>
+    <!-- <node pkg="rviz2" exec="rviz2" args="-d $(find-pkg-share rviz_satellite)/demo/demo.rviz" /> -->
+
+    <!-- Waypoint 기준점의 위도 / 경도 값 입력 (building.yaml 파일에 저장된 값)-->
+    <!-- <node pkg="rviz_satellite" exec="publish_demo_data" args="36.103580151969503 129.38619565573799" /> -->
+    <node pkg="rviz_satellite" exec="publish_demo_data.py" args="37.6071975 126.8917863" />
+
+    <!-- Both frames need to be present, so just coupling them https://github.com/nobleo/rviz_satellite/issues/110 -->
+    <node pkg="tf2_ros" exec="static_transform_publisher" args="--frame-id map --child-frame-id gps_sensor" />
+
+</launch>

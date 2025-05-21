@@ -1,0 +1,2524 @@
+<sdf version="1.7">
+	<world name="world">
+		<scene>
+			<ambient>0.8 0.8 0.8 1.0</ambient>
+			<background>0 0 0</background>
+			<grid>false</grid>
+		</scene>
+		<include>
+			<uri>model://sun</uri>
+		</include>
+		<gui>
+			<camera name="gui_camera">
+				<pose>39.76706548246218 -46.28228433571717 10 0 0.6 1.57</pose>
+			</camera>
+			<plugin name="toggle_charging" filename="libtoggle_charging.so" />
+			<plugin name="toggle_floors" filename="libtoggle_floors.so">
+				<floor name="L1" model_name="airport_terminal_L1">
+					<model name="Fountain" />
+					<model name="Pine Tree" />
+					<model name="Pine Tree_2" />
+					<model name="Pine Tree_3" />
+					<model name="MainTable" />
+					<model name="Standing person" />
+					<model name="Standing person_2" />
+					<model name="Standing person_3" />
+					<model name="Standing person_4" />
+					<model name="Standing person_5" />
+					<model name="Standing person_6" />
+					<model name="Standing person_7" />
+					<model name="Standing person_8" />
+					<model name="Standing person_9" />
+					<model name="Standing person_10" />
+					<model name="WhiteChipChair" />
+					<model name="WhiteChipChair_2" />
+					<model name="WhiteChipChair_3" />
+					<model name="WhiteChipChair_4" />
+					<model name="WhiteChipChair_5" />
+					<model name="WhiteChipChair_6" />
+					<model name="Pine Tree_4" />
+					<model name="Cafe table" />
+					<model name="Cafe table_2" />
+					<model name="Cafe table_3" />
+					<model name="ElectronicsRecycling" />
+					<model name="ElectronicsRecycling_2" />
+					<model name="ElectronicsRecycling_3" />
+					<model name="ElectronicsRecycling_4" />
+					<model name="ElectronicsRecycling_5" />
+					<model name="ElectronicsRecycling_6" />
+					<model name="Fridge" />
+					<model name="MainTable_2" />
+					<model name="Standing person_11" />
+					<model name="Standing person_12" />
+					<model name="PotatoChipChair" />
+					<model name="PotatoChipChair_2" />
+					<model name="PotatoChipChair_3" />
+					<model name="PotatoChipChair_4" />
+					<model name="PotatoChipChair_5" />
+					<model name="PotatoChipChair_6" />
+					<model name="Bookshelf" />
+					<model name="Standing person_13" />
+					<model name="Fountain_2" />
+					<model name="Pine Tree_5" />
+					<model name="Pine Tree_6" />
+					<model name="WhiteChipChair_7" />
+					<model name="WhiteChipChair_8" />
+					<model name="WhiteChipChair_9" />
+					<model name="WhiteChipChair_10" />
+					<model name="WhiteChipChair_11" />
+					<model name="WhiteChipChair_12" />
+					<model name="WhiteChipChair_13" />
+					<model name="WhiteChipChair_14" />
+					<model name="WhiteChipChair_15" />
+					<model name="WhiteChipChair_16" />
+					<model name="WhiteChipChair_17" />
+					<model name="WhiteChipChair_18" />
+					<model name="WhiteChipChair_19" />
+					<model name="WhiteChipChair_20" />
+					<model name="WhiteChipChair_21" />
+					<model name="WhiteChipChair_22" />
+					<model name="WhiteChipChair_23" />
+					<model name="WhiteChipChair_24" />
+					<model name="Pine Tree_7" />
+					<model name="Pine Tree_8" />
+					<model name="Pine Tree_9" />
+					<model name="Pine Tree_10" />
+					<model name="Fountain_3" />
+					<model name="Fountain_4" />
+					<model name="StorageRack" />
+					<model name="StorageRack_2" />
+					<model name="WhiteChipChair_25" />
+					<model name="WhiteChipChair_26" />
+					<model name="WhiteChipChair_27" />
+					<model name="WhiteChipChair_28" />
+					<model name="WhiteChipChair_29" />
+					<model name="WhiteChipChair_30" />
+					<model name="WhiteChipChair_31" />
+					<model name="Gazebo" />
+					<model name="Lamp Post" />
+					<model name="Lamp Post_2" />
+					<model name="Lamp Post_3" />
+					<model name="Lamp Post_4" />
+					<model name="Playground" />
+					<model name="SUV" />
+					<model name="FemaleVisitor" />
+					<model name="FemaleVisitor_2" />
+					<model name="FemaleVisitor_3" />
+					<model name="FemaleVisitor_4" />
+					<model name="FemaleVisitor_5" />
+					<model name="FemaleVisitor_6" />
+					<model name="FemaleVisitor_7" />
+					<model name="FemaleVisitor_8" />
+					<model name="FemaleVisitor_9" />
+					<model name="FemaleVisitor_10" />
+					<model name="FemaleVisitor_11" />
+					<model name="FemaleVisitor_12" />
+					<model name="FemaleVisitor_13" />
+					<model name="FemaleVisitor_14" />
+					<model name="Cafe" />
+					<model name="VisitorKidSit" />
+					<model name="VisitorKidSit_2" />
+					<model name="Chair" />
+					<model name="Chair_2" />
+					<model name="Chair_3" />
+					<model name="KitchenCountertop" />
+					<model name="Table" />
+					<model name="KitchenSink" />
+					<model name="MiniSofa" />
+					<model name="FemaleVisitorSit" />
+					<model name="FemaleVisitorSit_2" />
+					<model name="FemaleVisitorSit_3" />
+					<model name="FemaleVisitorSit_4" />
+					<model name="FemaleVisitorSit_5" />
+					<model name="FemaleVisitorSit_6" />
+					<model name="FemaleVisitorSit_7" />
+					<model name="Chair_4" />
+					<model name="Pine Tree_11" />
+					<model name="Pine Tree_12" />
+					<model name="Pine Tree_13" />
+					<model name="Pine Tree_14" />
+					<model name="FemaleVisitor_15" />
+					<model name="FemaleVisitor_16" />
+					<model name="MainTable_3" />
+					<model name="MainTable_4" />
+					<model name="Construction Cone" />
+					<model name="Construction Cone_2" />
+					<model name="Construction Cone_3" />
+					<model name="Standing person_14" />
+					<model name="Standing person_15" />
+					<model name="Bookshelf_2" />
+					<model name="Bookshelf_3" />
+					<model name="Bookshelf_4" />
+					<model name="Bookshelf_5" />
+					<model name="Bookshelf_6" />
+					<model name="Bookshelf_7" />
+					<model name="Bookshelf_8" />
+					<model name="Bookshelf_9" />
+					<model name="StorageRack_3" />
+					<model name="StorageRack_4" />
+					<model name="StorageRack_5" />
+					<model name="StorageRack_6" />
+					<model name="FemaleVisitor_17" />
+					<model name="Standing person_16" />
+					<model name="Standing person_17" />
+					<model name="Cafe table_4" />
+					<model name="Cafe table_5" />
+					<model name="Cafe table_6" />
+					<model name="Cafe table_7" />
+					<model name="Standing person_18" />
+					<model name="ParkingTrolleyMax" />
+					<model name="Oak tree" />
+					<model name="Fountain_5" />
+					<model name="Pine Tree_15" />
+					<model name="Pine Tree_16" />
+					<model name="Pine Tree_17" />
+					<model name="Lamp Post_5" />
+					<model name="Lamp Post_6" />
+					<model name="PotatoChipChair_7" />
+					<model name="PotatoChipChair_8" />
+					<model name="PotatoChipChair_9" />
+					<model name="FemaleVisitor_18" />
+					<model name="FemaleVisitor_19" />
+					<model name="FemaleVisitor_20" />
+					<model name="FemaleVisitor_21" />
+					<model name="FemaleVisitor_22" />
+					<model name="Bookshelf_10" />
+					<model name="Bookshelf_11" />
+					<model name="Standing person_19" />
+					<model name="Standing person_20" />
+					<model name="Standing person_21" />
+					<model name="Standing person_22" />
+					<model name="Standing person_23" />
+					<model name="Standing person_24" />
+					<model name="Standing person_25" />
+					<model name="Standing person_26" />
+					<model name="PotatoChipChair_10" />
+					<model name="PotatoChipChair_11" />
+					<model name="MaleVisitorSit" />
+					<model name="MaleVisitorSit_2" />
+					<model name="MaleVisitorSit_3" />
+					<model name="MaleVisitorSit_4" />
+					<model name="LampAndStand" />
+					<model name="VisitorKidSit_3" />
+					<model name="VisitorKidSit_4" />
+					<model name="VisitorKidSit_5" />
+					<model name="FemaleVisitorSit_8" />
+					<model name="FemaleVisitorSit_9" />
+					<model name="Pine Tree_18" />
+					<model name="Fountain_6" />
+					<model name="Cafe table_8" />
+					<model name="Cafe table_9" />
+					<model name="Cafe table_10" />
+					<model name="Cafe table_11" />
+					<model name="Bookshelf_12" />
+					<model name="Bookshelf_13" />
+					<model name="Bookshelf_14" />
+					<model name="Bookshelf_15" />
+					<model name="Bookshelf_16" />
+					<model name="Bookshelf_17" />
+					<model name="Bookshelf_18" />
+					<model name="Bookshelf_19" />
+					<model name="FemaleVisitor_23" />
+					<model name="FemaleVisitor_24" />
+					<model name="FemaleVisitor_25" />
+					<model name="MainTable_5" />
+					<model name="MainTable_6" />
+					<model name="MainTable_7" />
+					<model name="Standing person_27" />
+					<model name="Standing person_28" />
+					<model name="Standing person_29" />
+					<model name="Table_2" />
+					<model name="Table_3" />
+					<model name="Table_4" />
+					<model name="Table_5" />
+					<model name="Table_6" />
+					<model name="Table_7" />
+					<model name="Table_8" />
+					<model name="Table_9" />
+					<model name="Playground_2" />
+					<model name="Pine Tree_19" />
+					<model name="StorageRack_7" />
+					<model name="StorageRack_8" />
+					<model name="Bookshelf_20" />
+					<model name="Bookshelf_21" />
+					<model name="FemaleVisitor_26" />
+					<model name="FemaleVisitor_27" />
+					<model name="FemaleVisitor_28" />
+					<model name="FemaleVisitor_29" />
+					<model name="Cafe table_12" />
+					<model name="Cafe table_13" />
+					<model name="Cafe table_14" />
+					<model name="Cafe table_15" />
+					<model name="Table_10" />
+					<model name="Table_11" />
+					<model name="Table_12" />
+					<model name="Table_13" />
+					<model name="MainTable_8" />
+					<model name="Standing person_30" />
+					<model name="Standing person_31" />
+					<model name="Standing person_32" />
+					<model name="PotatoChipChair_12" />
+					<model name="PotatoChipChair_13" />
+					<model name="PotatoChipChair_14" />
+					<model name="PotatoChipChair_15" />
+					<model name="PotatoChipChair_16" />
+					<model name="PotatoChipChair_17" />
+					<model name="PotatoChipChair_18" />
+					<model name="PotatoChipChair_19" />
+					<model name="PotatoChipChair_20" />
+					<model name="MainTable_9" />
+					<model name="StorageRack_9" />
+					<model name="StorageRack_10" />
+					<model name="Bookshelf_22" />
+					<model name="Standing person_33" />
+					<model name="FemaleVisitor_30" />
+					<model name="FemaleVisitor_31" />
+					<model name="FemaleVisitor_32" />
+					<model name="Bookshelf_23" />
+					<model name="Bookshelf_24" />
+					<model name="Bookshelf_25" />
+					<model name="Bookshelf_26" />
+					<model name="MainTable_10" />
+					<model name="Standing person_34" />
+					<model name="Bookshelf_27" />
+					<model name="Bookshelf_28" />
+					<model name="FemaleVisitor_33" />
+					<model name="FemaleVisitor_34" />
+					<model name="FemaleVisitor_35" />
+					<model name="Fridge_2" />
+					<model name="Construction Cone_4" />
+					<model name="Construction Cone_5" />
+					<model name="Construction Cone_6" />
+					<model name="Construction Cone_7" />
+					<model name="ParkingTrolleyMax_2" />
+					<model name="Fountain_7" />
+					<model name="Construction Cone_8" />
+					<model name="Construction Cone_9" />
+					<model name="mopcart_dispenser" />
+					<model name="mopcart_collector" />
+					<model name="n02_door" />
+					<model name="n01_door" />
+					<model name="s04_door" />
+					<model name="s08_door" />
+					<model name="zone_4_door" />
+				</floor>
+			</plugin>
+		</gui>
+		<include>
+			<name>Fountain</name>
+			<uri>model://Fountain</uri>
+			<pose>73.84735548161056 -34.70823490345117 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Pine Tree</name>
+			<uri>model://Pine Tree</uri>
+			<pose>78.16778723671018 -35.70987539227364 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Pine Tree_2</name>
+			<uri>model://Pine Tree</uri>
+			<pose>74.0254778248307 -32.28629661564661 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Pine Tree_3</name>
+			<uri>model://Pine Tree</uri>
+			<pose>70.54507071186973 -35.847593773822815 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>MainTable</name>
+			<uri>model://MainTable</uri>
+			<pose>65.5307912491321 -28.956501018345264 0.0 0 0 0.1987</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person</name>
+			<uri>model://Standing person</uri>
+			<pose>65.00693581925601 -27.804084770116546 0.0 0 0 0.3128</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_2</name>
+			<uri>model://Standing person</uri>
+			<pose>53.66450904261482 -30.64221671188128 0.0 0 0 0.5731</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_3</name>
+			<uri>model://Standing person</uri>
+			<pose>54.509789484645616 -39.691308054329134 0.0 0 0 2.8394</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_4</name>
+			<uri>model://Standing person</uri>
+			<pose>45.65573759132077 -41.26484526891692 0.0 0 0 2.8386</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_5</name>
+			<uri>model://Standing person</uri>
+			<pose>45.48935867598467 -47.165712475962785 0.0 0 0 3.0509</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_6</name>
+			<uri>model://Standing person</uri>
+			<pose>66.2196295224979 -5.252761382844262 0.0 0 0 -1.2925</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_7</name>
+			<uri>model://Standing person</uri>
+			<pose>55.48539733962724 -4.12284652790384 0.0 0 0 2.5309</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_8</name>
+			<uri>model://Standing person</uri>
+			<pose>59.48317225447241 -20.23474746293081 0.0 0 0 0.8252</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_9</name>
+			<uri>model://Standing person</uri>
+			<pose>50.23764539105519 -40.98710909336576 0.0 0 0 -0.7629</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_10</name>
+			<uri>model://Standing person</uri>
+			<pose>59.27055872446 -9.789994883495348 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>59.093421843719646 -39.5279676483057 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_2</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>60.87743741961366 -39.59407575632423 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_3</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>62.661370873634354 -39.68211040451786 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_4</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>74.74708272564918 -41.35263355149061 0.0 0 0 1.5284</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_5</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>76.40561607911795 -41.32807911136943 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_6</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>78.08862175083456 -41.25433366913261 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Pine Tree_4</name>
+			<uri>model://Pine Tree</uri>
+			<pose>53.14582729075758 -33.87551910803756 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Cafe table</name>
+			<uri>model://Cafe table</uri>
+			<pose>85.07973894800973 -23.965051436389178 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Cafe table_2</name>
+			<uri>model://Cafe table</uri>
+			<pose>83.52320096119813 -23.96455870514929 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Cafe table_3</name>
+			<uri>model://Cafe table</uri>
+			<pose>82.03654868857757 -23.965051436389178 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>ElectronicsRecycling</name>
+			<uri>model://ElectronicsRecycling</uri>
+			<pose>80.21705646341148 -40.438206492128614 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>ElectronicsRecycling_2</name>
+			<uri>model://ElectronicsRecycling</uri>
+			<pose>53.51381540508188 -29.871995662060346 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>ElectronicsRecycling_3</name>
+			<uri>model://ElectronicsRecycling</uri>
+			<pose>75.88299247734159 -21.40909025133462 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>ElectronicsRecycling_4</name>
+			<uri>model://ElectronicsRecycling</uri>
+			<pose>54.40787623986175 -26.53053875874827 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>ElectronicsRecycling_5</name>
+			<uri>model://ElectronicsRecycling</uri>
+			<pose>51.186235149716204 -40.03843721283143 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>ElectronicsRecycling_6</name>
+			<uri>model://ElectronicsRecycling</uri>
+			<pose>65.98952403346941 -18.808126279703465 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Fridge</name>
+			<uri>model://Fridge</uri>
+			<pose>81.89234267903652 -19.580975229470475 0.0 0 0 -0.0006</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>MainTable_2</name>
+			<uri>model://MainTable</uri>
+			<pose>86.10995784874581 -21.110495119961453 0.0 0 0 4.6995</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_11</name>
+			<uri>model://Standing person</uri>
+			<pose>86.85792387089839 -20.911021089679434 0.0 0 0 4.6993</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_12</name>
+			<uri>model://Standing person</uri>
+			<pose>85.11275194108235 -20.911021089679434 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>PotatoChipChair</name>
+			<uri>model://PotatoChipChair</uri>
+			<pose>76.4865882462065 -15.924827307615509 0.0 0 0 3.1598</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>PotatoChipChair_2</name>
+			<uri>model://PotatoChipChair</uri>
+			<pose>76.4865882462065 -19.165849159863395 0.0 0 0 3.1694</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>PotatoChipChair_3</name>
+			<uri>model://PotatoChipChair</uri>
+			<pose>76.53643622330867 -13.78070731723543 0.0 0 0 3.1416</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>PotatoChipChair_4</name>
+			<uri>model://PotatoChipChair</uri>
+			<pose>87.05731577930707 -35.76990648166687 0.0 0 0 4.3602</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>PotatoChipChair_5</name>
+			<uri>model://PotatoChipChair</uri>
+			<pose>85.16259991818453 -34.722852596901234 0.0 0 0 4.2026</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>PotatoChipChair_6</name>
+			<uri>model://PotatoChipChair</uri>
+			<pose>83.11825800388212 -33.177072575493895 0.0 0 0 4.0445</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf</name>
+			<uri>model://Bookshelf</uri>
+			<pose>61.473724341753524 -19.398828914457916 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_13</name>
+			<uri>model://Standing person</uri>
+			<pose>84.41668694286481 -13.725028687127894 0.0 0 0 -1.3228</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Fountain_2</name>
+			<uri>model://Fountain</uri>
+			<pose>58.70350718922025 -22.519706466046028 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Pine Tree_5</name>
+			<uri>model://Pine Tree</uri>
+			<pose>56.397853474029674 -25.529719488658955 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Pine Tree_6</name>
+			<uri>model://Pine Tree</uri>
+			<pose>55.56201704743009 -21.889667453973715 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_7</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>66.5118191477525 -4.776700883237486 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_8</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>68.10383378383615 -4.776700883237486 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_9</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>80.16663363319611 -6.146083120764307 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_10</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>80.10783437190261 -4.822278522927284 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_11</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>78.43106996255793 -4.851678153574038 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_12</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>66.55115552507036 -6.172115754605147 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_13</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>68.10383378383615 -6.152488626882874 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_14</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>81.90227942570762 -6.17548275141106 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_15</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>81.8433980425408 -4.822278522927284 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_16</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>76.66602453939966 -6.17548275141106 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_17</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>76.69542417004642 -4.851678153574038 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_18</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>78.40158821003786 -6.17548275141106 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_19</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>60.281561106840364 -4.6390646235616275 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_20</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>60.281561106840364 -5.95588886216688 0.0 0 0 1.5794</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_21</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>58.60060848195662 -4.6338088236694706 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_22</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>58.661132302589735 -5.904644813218349 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_23</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>66.62407974857405 -7.404847194935888 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_24</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>68.3253985980399 -7.424227957038218 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Pine Tree_7</name>
+			<uri>model://Pine Tree</uri>
+			<pose>50.62345395188883 -4.880174443614326 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Pine Tree_8</name>
+			<uri>model://Pine Tree</uri>
+			<pose>39.184123364735996 -9.513490536043907 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Pine Tree_9</name>
+			<uri>model://Pine Tree</uri>
+			<pose>43.39861790325932 -5.560800529648646 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Pine Tree_10</name>
+			<uri>model://Pine Tree</uri>
+			<pose>37.558438760593205 -5.327410165687553 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Fountain_3</name>
+			<uri>model://Fountain</uri>
+			<pose>48.79106859261231 -7.550202910703353 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Fountain_4</name>
+			<uri>model://Fountain</uri>
+			<pose>36.38319263158293 -7.628793543465762 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>StorageRack</name>
+			<uri>model://StorageRack</uri>
+			<pose>84.299663273391 -26.460242435190672 0.0 0 0 2.1193</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>StorageRack_2</name>
+			<uri>model://StorageRack</uri>
+			<pose>85.55883795692917 -28.60469091306401 0.0 0 0 2.2585</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_25</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>71.58555484677017 -18.048252585920217 0.0 0 0 0.0267</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_26</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>66.2026302947217 -15.117487171056219 0.0 0 0 3.2165</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_27</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>66.42337389019231 -17.05474216255593 0.0 0 0 3.2142</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_28</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>61.610949992062814 -17.043737831531725 0.0 0 0 -0.0172</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_29</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>61.61743762005469 -15.372886197065716 0.0 0 0 0.0104</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_30</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>59.3612212725997 -31.005277513806682 0.0 0 0 2.7611</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>WhiteChipChair_31</name>
+			<uri>model://WhiteChipChair</uri>
+			<pose>54.2499558774771 -19.14203381660206 0.0 0 0 3.217</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Gazebo</name>
+			<uri>model://Gazebo</uri>
+			<pose>57.49393411716433 -15.299715607942096 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Lamp Post</name>
+			<uri>model://Lamp Post</uri>
+			<pose>49.982656974412265 -12.676496608642589 0.0 0 0 2.0195</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Lamp Post_2</name>
+			<uri>model://Lamp Post</uri>
+			<pose>45.90481323308502 -36.244981518793864 0.0 0 0 1.1264</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Lamp Post_3</name>
+			<uri>model://Lamp Post</uri>
+			<pose>58.58886505407258 -34.53684655384287 0.0 0 0 -0.9358</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Lamp Post_4</name>
+			<uri>model://Lamp Post</uri>
+			<pose>76.03532855234083 -36.303041683227534 0.0 0 0 3.9247</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Playground</name>
+			<uri>model://Playground</uri>
+			<pose>24.832997515454903 -7.526798176808592 0.0 0 0 0.0</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>SUV</name>
+			<uri>model://SUV</uri>
+			<pose>44.273544341556814 -15.947492944650435 0.0 0 0 0.0</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>83.53387680472908 -26.594922307427193 0.0 0 0 1.4567</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_2</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>67.3511046930313 -16.917188024753386 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_3</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>37.2722440320906 -9.70327418527476 0.0 0 0 2.9362</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_4</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>48.01345657419303 -13.903972249081173 0.0 0 0 -0.8809</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_5</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>66.59008129302165 -29.689849347047783 0.0 0 0 2.9736</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_6</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>81.42457648863454 -14.347101877488655 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_7</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>86.51358685608879 -27.81007966686854 0.0 0 0 -0.8787</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_8</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>82.01076242035667 -31.745031348627766 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_9</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>57.37280435402477 -39.606476159194784 0.0 0 0 2.1817</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_10</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>54.99545824343024 -20.02032725170547 0.0 0 0 4.5836</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_11</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>61.39570856210432 -3.977983543376265 0.0 0 0 -0.5309</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_12</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>45.2429109341665 -5.297025072561021 0.0 0 0 0.0897</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_13</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>29.465985120391224 -9.403365103928556 0.0 0 0 3.662</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_14</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>19.52431113688316 -5.459133650484736 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Cafe</name>
+			<uri>model://Cafe</uri>
+			<pose>24.457536310658945 -19.400964083164105 0.0 0 0 1.5711</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>VisitorKidSit</name>
+			<uri>model://VisitorKidSit</uri>
+			<pose>45.120385099180595 -9.254806635101808 0.0 0 0 2.7602</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>VisitorKidSit_2</name>
+			<uri>model://VisitorKidSit</uri>
+			<pose>53.984291617303235 -19.699312848917323 0.0 0 0 -1.4932</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Chair</name>
+			<uri>model://Chair</uri>
+			<pose>82.06241707867177 -23.198936480233996 0.0 0 0 -1.5385</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Chair_2</name>
+			<uri>model://Chair</uri>
+			<pose>83.3911489889077 -23.119770994358376 0.0 0 0 -0.1608</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Chair_3</name>
+			<uri>model://Chair</uri>
+			<pose>85.09698454140587 -23.222833945368645 0.0 0 0 -1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>KitchenCountertop</name>
+			<uri>model://KitchenCountertop</uri>
+			<pose>83.79026129321836 -13.78234975470173 0.0 0 0 -0.0098</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Table</name>
+			<uri>model://Table</uri>
+			<pose>82.660100072658 -17.530309930922815 0.0 0 0 3.1555</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>KitchenSink</name>
+			<uri>model://KitchenSink</uri>
+			<pose>83.7783536215877 -15.388899962362132 0.0 0 0 0.0</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>MiniSofa</name>
+			<uri>model://MiniSofa</uri>
+			<pose>81.10438330457954 -17.398997055492206 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitorSit</name>
+			<uri>model://FemaleVisitorSit</uri>
+			<pose>59.20995278195356 -30.76080069694807 0.0 0 0 4.172</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitorSit_2</name>
+			<uri>model://FemaleVisitorSit</uri>
+			<pose>83.52320096119813 -23.106549372754674 0.0 0 0 1.529</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitorSit_3</name>
+			<uri>model://FemaleVisitorSit</uri>
+			<pose>81.1447872662505 -17.409098045909946 0.0 0 0 0.132</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitorSit_4</name>
+			<uri>model://FemaleVisitorSit</uri>
+			<pose>59.7747870266138 -5.6617283119527215 0.0 0 0 3.2972</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitorSit_5</name>
+			<uri>model://FemaleVisitorSit</uri>
+			<pose>61.88392309896171 -17.548705230545366 0.0 0 0 1.2326</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitorSit_6</name>
+			<uri>model://FemaleVisitorSit</uri>
+			<pose>71.76885086800914 -17.440057992149683 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitorSit_7</name>
+			<uri>model://FemaleVisitorSit</uri>
+			<pose>76.2581251946443 -41.082370466411106 0.0 0 0 3.2105</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Chair_4</name>
+			<uri>model://Chair</uri>
+			<pose>45.11422595868197 -9.264743381772917 0.0 0 0 1.5798</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Pine Tree_11</name>
+			<uri>model://Pine Tree</uri>
+			<pose>31.97792898134897 -27.41408799374384 0.0 0 0 2.4511</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Pine Tree_12</name>
+			<uri>model://Pine Tree</uri>
+			<pose>31.91954032942204 -33.639418722257076 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Pine Tree_13</name>
+			<uri>model://Pine Tree</uri>
+			<pose>25.623338424238003 -27.4358502901723 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Pine Tree_14</name>
+			<uri>model://Pine Tree</uri>
+			<pose>25.691417457216097 -33.61412518527607 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_15</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>29.02687946377618 -34.740919409030525 0.0 0 0 4.6244</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_16</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>29.767618761077042 -28.56321936703996 0.0 0 0 2.8159</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>MainTable_3</name>
+			<uri>model://MainTable</uri>
+			<pose>43.400013975105665 -20.748830389882407 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>MainTable_4</name>
+			<uri>model://MainTable</uri>
+			<pose>36.15522231126062 -28.365962627337446 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Construction Cone</name>
+			<uri>model://Construction Cone</uri>
+			<pose>38.672914703350415 -36.62955825152778 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Construction Cone_2</name>
+			<uri>model://Construction Cone</uri>
+			<pose>35.457104266210216 -37.660269883503744 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Construction Cone_3</name>
+			<uri>model://Construction Cone</uri>
+			<pose>31.973330156443332 -38.59818379863381 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_14</name>
+			<uri>model://Standing person</uri>
+			<pose>35.10570477029554 -28.095124689144736 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_15</name>
+			<uri>model://Standing person</uri>
+			<pose>42.41824697962542 -20.748830389882407 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_2</name>
+			<uri>model://Bookshelf</uri>
+			<pose>43.02299245471673 -23.55066446364193 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_3</name>
+			<uri>model://Bookshelf</uri>
+			<pose>45.54725459667171 -20.259548268671924 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_4</name>
+			<uri>model://Bookshelf</uri>
+			<pose>45.43294094901731 -23.592792984652505 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_5</name>
+			<uri>model://Bookshelf</uri>
+			<pose>47.528116302901665 -20.240495994062854 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_6</name>
+			<uri>model://Bookshelf</uri>
+			<pose>47.5090640282926 -23.63089753387064 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_7</name>
+			<uri>model://Bookshelf</uri>
+			<pose>38.268382355400966 -30.849656563874845 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_8</name>
+			<uri>model://Bookshelf</uri>
+			<pose>44.693515601689484 -27.89409034326973 0.0 0 0 2.1996</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_9</name>
+			<uri>model://Bookshelf</uri>
+			<pose>46.1584876997549 -30.181430880711083 0.0 0 0 2.188</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>StorageRack_3</name>
+			<uri>model://StorageRack</uri>
+			<pose>35.450698760091655 -34.08731141931682 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>StorageRack_4</name>
+			<uri>model://StorageRack</uri>
+			<pose>41.81103784833467 -26.630645322319197 0.0 0 0 0.0141</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>StorageRack_5</name>
+			<uri>model://StorageRack</uri>
+			<pose>38.83477691565419 -26.630645322319197 0.0 0 0 0.0</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>StorageRack_6</name>
+			<uri>model://StorageRack</uri>
+			<pose>36.05314482273014 -30.497025239860445 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_17</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>25.778302399183318 -19.192374524944125 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_16</name>
+			<uri>model://Standing person</uri>
+			<pose>33.21616258719181 -16.828989132813128 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_17</name>
+			<uri>model://Standing person</uri>
+			<pose>37.873540388502676 -21.138745044381796 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Cafe table_4</name>
+			<uri>model://Cafe table</uri>
+			<pose>24.005373276186823 -20.796789563898336 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Cafe table_5</name>
+			<uri>model://Cafe table</uri>
+			<pose>23.888431728586326 -17.822663799924044 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Cafe table_6</name>
+			<uri>model://Cafe table</uri>
+			<pose>29.23932875004196 -21.00464002525848 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Cafe table_7</name>
+			<uri>model://Cafe table</uri>
+			<pose>29.265279262009482 -17.913572713683696 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_18</name>
+			<uri>model://Standing person</uri>
+			<pose>13.668282472667261 -19.73347554821634 0.0 0 0 4.1565</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>ParkingTrolleyMax</name>
+			<uri>model://ParkingTrolleyMax</uri>
+			<pose>38.564595952447995 -34.44831917440935 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Oak tree</name>
+			<uri>model://Oak tree</uri>
+			<pose>17.626310400827993 -35.6750557179881 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Fountain_5</name>
+			<uri>model://Fountain</uri>
+			<pose>10.154287513520474 -33.30518269786522 0.0 0 0 0.9381</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Pine Tree_15</name>
+			<uri>model://Pine Tree</uri>
+			<pose>12.756072703884778 -28.807285574531996 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Pine Tree_16</name>
+			<uri>model://Pine Tree</uri>
+			<pose>9.25086478518269 -30.99427318278248 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Pine Tree_17</name>
+			<uri>model://Pine Tree</uri>
+			<pose>6.284869086666577 -36.29712890834886 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Lamp Post_5</name>
+			<uri>model://Lamp Post</uri>
+			<pose>19.020329200349302 -30.879631047634806 0.0 0 0 2.6122</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Lamp Post_6</name>
+			<uri>model://Lamp Post</uri>
+			<pose>7.7565751783438275 -32.58029292211414 0.0 0 0 1.1999</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>PotatoChipChair_7</name>
+			<uri>model://PotatoChipChair</uri>
+			<pose>13.800662932450964 -42.735483776241075 0.0 0 0 -1.5208</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>PotatoChipChair_8</name>
+			<uri>model://PotatoChipChair</uri>
+			<pose>19.446131113487326 -41.95097352046335 0.0 0 0 -1.3558</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>PotatoChipChair_9</name>
+			<uri>model://PotatoChipChair</uri>
+			<pose>26.111799326715335 -38.95672789752689 0.0 0 0 -1.5488</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_18</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>79.0719490619078 -25.621285377405126 0.0 0 0 2.8826</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_19</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>65.46090553494106 -29.852861265577964 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_20</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>82.10183557786294 -40.68005540904115 0.0 0 0 0.3931</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_21</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>88.5238481929655 -42.81859111203581 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_22</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>77.41850726458456 -24.447106832747945 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_10</name>
+			<uri>model://Bookshelf</uri>
+			<pose>89.11742509328596 -48.86793466603511 0.0 0 0 3.1321</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_11</name>
+			<uri>model://Bookshelf</uri>
+			<pose>87.05370241688124 -48.837138963542 0.0 0 0 3.1357</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_19</name>
+			<uri>model://Standing person</uri>
+			<pose>89.98290751615224 -42.82376479005465 0.0 0 0 4.3674</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_20</name>
+			<uri>model://Standing person</uri>
+			<pose>86.47326501629115 -45.492889916537216 0.0 0 0 -0.8484</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_21</name>
+			<uri>model://Standing person</uri>
+			<pose>84.4368889237003 -42.95130005931278 0.0 0 0 -0.1549</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_22</name>
+			<uri>model://Standing person</uri>
+			<pose>82.5585153153674 -44.46833742505988 0.0 0 0 2.5208</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_23</name>
+			<uri>model://Standing person</uri>
+			<pose>80.24341758474559 -43.333987988960445 0.0 0 0 -0.4426</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_24</name>
+			<uri>model://Standing person</uri>
+			<pose>79.23257944611186 -45.91097237358363 0.0 0 0 1.6712</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_25</name>
+			<uri>model://Standing person</uri>
+			<pose>74.80965959311517 -42.89480021047209 0.0 0 0 1.0153</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_26</name>
+			<uri>model://Standing person</uri>
+			<pose>87.24718155041126 -35.10061321415001 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>PotatoChipChair_10</name>
+			<uri>model://PotatoChipChair</uri>
+			<pose>74.92142746269683 -46.2963703250507 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>PotatoChipChair_11</name>
+			<uri>model://PotatoChipChair</uri>
+			<pose>77.49980791916637 -45.95983488820603 0.0 0 0 0.0648</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>MaleVisitorSit</name>
+			<uri>model://MaleVisitorSit</uri>
+			<pose>87.48623832363107 -36.22190527239236 0.0 0 0 -0.4547</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>MaleVisitorSit_2</name>
+			<uri>model://MaleVisitorSit</uri>
+			<pose>78.16236719307139 -41.020943305171514 0.0 0 0 2.9079</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>MaleVisitorSit_3</name>
+			<uri>model://MaleVisitorSit</uri>
+			<pose>74.39995356714688 -45.857264668435654 0.0 0 0 2.8</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>MaleVisitorSit_4</name>
+			<uri>model://MaleVisitorSit</uri>
+			<pose>77.81844078762838 -45.956550013273436 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>LampAndStand</name>
+			<uri>model://LampAndStand</uri>
+			<pose>79.68695977116349 -40.3403172191372 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>VisitorKidSit_3</name>
+			<uri>model://VisitorKidSit</uri>
+			<pose>85.52796013256275 -35.2735618793513 0.0 0 0 0.0907</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>VisitorKidSit_4</name>
+			<uri>model://VisitorKidSit</uri>
+			<pose>75.43370370843549 -45.994490318744944 0.0 0 0 2.9794</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>VisitorKidSit_5</name>
+			<uri>model://VisitorKidSit</uri>
+			<pose>77.71899119904397 -45.41002894636243 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitorSit_8</name>
+			<uri>model://FemaleVisitorSit</uri>
+			<pose>26.20147641237526 -39.15858346213504 0.0 0 0 -0.0918</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitorSit_9</name>
+			<uri>model://FemaleVisitorSit</uri>
+			<pose>19.6261422597937 -42.19536821544864 0.0 0 0 -0.0797</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Pine Tree_18</name>
+			<uri>model://Pine Tree</uri>
+			<pose>45.3367762353655 -43.66124365412053 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Fountain_6</name>
+			<uri>model://Fountain</uri>
+			<pose>69.79907561467671 -20.412951928024253 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Cafe table_8</name>
+			<uri>model://Cafe table</uri>
+			<pose>62.8516472541051 -42.18871634371013 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Cafe table_9</name>
+			<uri>model://Cafe table</uri>
+			<pose>61.14392289852068 -44.054525305425834 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Cafe table_10</name>
+			<uri>model://Cafe table</uri>
+			<pose>64.7174562158208 -44.117759147878346 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Cafe table_11</name>
+			<uri>model://Cafe table</uri>
+			<pose>62.91488109655761 -46.204886558177854 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_12</name>
+			<uri>model://Bookshelf</uri>
+			<pose>56.071911758842624 -43.45585684895984 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_13</name>
+			<uri>model://Bookshelf</uri>
+			<pose>56.071911758842624 -45.999499753017155 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_14</name>
+			<uri>model://Bookshelf</uri>
+			<pose>56.071911758842624 -48.997358738379475 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_15</name>
+			<uri>model://Bookshelf</uri>
+			<pose>50.807817557480895 -45.22188773459788 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_16</name>
+			<uri>model://Bookshelf</uri>
+			<pose>50.932642804919624 -47.59373167968031 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_17</name>
+			<uri>model://Bookshelf</uri>
+			<pose>53.67896249231824 -45.09706248715915 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_18</name>
+			<uri>model://Bookshelf</uri>
+			<pose>53.85733120115832 -47.629372572699005 0.0 0 0 1.5574</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_19</name>
+			<uri>model://Bookshelf</uri>
+			<pose>56.041608787589404 -39.48904188035441 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_23</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>56.851494702221466 -47.366746821837786 0.0 0 0 -1.3179</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_24</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>61.914390313961555 -46.12489985356908 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_25</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>52.520961956704106 -47.557844421041686 0.0 0 0 0.0056</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>MainTable_5</name>
+			<uri>model://MainTable</uri>
+			<pose>51.826867883446134 -50.80403995130842 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>MainTable_6</name>
+			<uri>model://MainTable</uri>
+			<pose>62.89582882194855 -49.52121416825555 0.0 0 0 3.139</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>MainTable_7</name>
+			<uri>model://MainTable</uri>
+			<pose>45.6553269819542 -46.24102018243643 0.0 0 0 3.1557</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_27</name>
+			<uri>model://Standing person</uri>
+			<pose>62.96637151112609 -50.355736644882086 0.0 0 0 3.1267</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_28</name>
+			<uri>model://Standing person</uri>
+			<pose>56.87218941429683 -43.540031769107664 0.0 0 0 4.5212</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_29</name>
+			<uri>model://Standing person</uri>
+			<pose>50.973375254083834 -51.19797857760023 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Table_2</name>
+			<uri>model://Table</uri>
+			<pose>45.55333161529702 -48.40772368797812 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Table_3</name>
+			<uri>model://Table</uri>
+			<pose>48.19026496744012 -48.376271010498485 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Table_4</name>
+			<uri>model://Table</uri>
+			<pose>45.50964277869347 -51.340377905928364 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Table_5</name>
+			<uri>model://Table</uri>
+			<pose>48.41412919409668 -51.31713741578023 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Table_6</name>
+			<uri>model://Table</uri>
+			<pose>89.32001975475396 -44.435078066367325 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Table_7</name>
+			<uri>model://Table</uri>
+			<pose>85.29752615604099 -44.478849024844195 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Table_8</name>
+			<uri>model://Table</uri>
+			<pose>79.00477336953617 -48.519902166926336 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Table_9</name>
+			<uri>model://Table</uri>
+			<pose>82.30385538621773 -48.55455759746525 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Playground_2</name>
+			<uri>model://Playground</uri>
+			<pose>92.53320229194807 -15.019269410571534 0.0 0 0 0.0</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Pine Tree_19</name>
+			<uri>model://Pine Tree</uri>
+			<pose>89.3762732379747 -24.444478932801868 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>StorageRack_7</name>
+			<uri>model://StorageRack</uri>
+			<pose>72.11762246397774 -44.85020413597441 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>StorageRack_8</name>
+			<uri>model://StorageRack</uri>
+			<pose>70.80572553777138 -44.900709088063095 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_20</name>
+			<uri>model://Bookshelf</uri>
+			<pose>73.37975353495524 -44.71790579806402 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_21</name>
+			<uri>model://Bookshelf</uri>
+			<pose>73.41383411238094 -43.3534508729361 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_26</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>41.603844361961045 -29.588182467883872 0.0 0 0 3.6307</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_27</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>46.043434955240656 -26.792918143989542 0.0 0 0 -0.8359</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_28</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>54.91202242014224 -28.211819871125282 0.0 0 0 4.5179</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_29</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>42.43270042932885 -33.86426841139341 0.0 0 0 0.906</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Cafe table_12</name>
+			<uri>model://Cafe table</uri>
+			<pose>32.45694586839508 -54.0752826529362 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Cafe table_13</name>
+			<uri>model://Cafe table</uri>
+			<pose>42.93996724079531 -47.16012818857737 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Cafe table_14</name>
+			<uri>model://Cafe table</uri>
+			<pose>42.93996724079531 -50.111916803010004 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Cafe table_15</name>
+			<uri>model://Cafe table</uri>
+			<pose>42.91541280067414 -52.965323413211316 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Table_10</name>
+			<uri>model://Table</uri>
+			<pose>39.766778055905576 -47.0125551822304 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Table_11</name>
+			<uri>model://Table</uri>
+			<pose>39.81596905802123 -51.31730165952686 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Table_12</name>
+			<uri>model://Table</uri>
+			<pose>36.91337144570426 -49.103378076829074 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Table_13</name>
+			<uri>model://Table</uri>
+			<pose>36.892266124262314 -52.62328581085453 0.0 0 0 -1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>MainTable_8</name>
+			<uri>model://MainTable</uri>
+			<pose>36.814989441472946 -54.68725485287922 0.0 0 0 3.1166</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_30</name>
+			<uri>model://Standing person</uri>
+			<pose>36.1754242920961 -55.64660257694449 0.0 0 0 2.6923</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_31</name>
+			<uri>model://Standing person</uri>
+			<pose>42.079083642834675 -50.01353479877868 0.0 0 0 -1.188</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_32</name>
+			<uri>model://Standing person</uri>
+			<pose>40.40634320528242 -55.62196601495 0.0 0 0 2.5492</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>PotatoChipChair_12</name>
+			<uri>model://PotatoChipChair</uri>
+			<pose>43.42497902459342 -42.19774974977477 0.0 0 0 1.8297</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>PotatoChipChair_13</name>
+			<uri>model://PotatoChipChair</uri>
+			<pose>41.450276458862085 -42.55678657990775 0.0 0 0 1.783</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>PotatoChipChair_14</name>
+			<uri>model://PotatoChipChair</uri>
+			<pose>39.39336989794249 -42.998848623962125 0.0 0 0 1.8298</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>PotatoChipChair_15</name>
+			<uri>model://PotatoChipChair</uri>
+			<pose>25.16756202734002 -45.94086473547028 0.0 0 0 1.7718</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>PotatoChipChair_16</name>
+			<uri>model://PotatoChipChair</uri>
+			<pose>23.169783215207186 -46.296698812543966 0.0 0 0 1.7734</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>PotatoChipChair_17</name>
+			<uri>model://PotatoChipChair</uri>
+			<pose>21.135213803829252 -46.685628004563576 0.0 0 0 1.7698</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>PotatoChipChair_18</name>
+			<uri>model://PotatoChipChair</uri>
+			<pose>13.054749957131257 -47.918030957401065 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>PotatoChipChair_19</name>
+			<uri>model://PotatoChipChair</uri>
+			<pose>10.868583567613927 -47.95662823785909 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>PotatoChipChair_20</name>
+			<uri>model://PotatoChipChair</uri>
+			<pose>8.682417178096594 -47.98233238420667 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>MainTable_9</name>
+			<uri>model://MainTable</uri>
+			<pose>32.3450137550668 -50.42069504667422 0.0 0 0 3.1523</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>StorageRack_9</name>
+			<uri>model://StorageRack</uri>
+			<pose>31.099307058752302 -47.6326574476316 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>StorageRack_10</name>
+			<uri>model://StorageRack</uri>
+			<pose>32.56748190987701 -47.573365455098205 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_22</name>
+			<uri>model://Bookshelf</uri>
+			<pose>34.02087482380503 -47.4250533518914 0.0 0 0 -1.4328</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_33</name>
+			<uri>model://Standing person</uri>
+			<pose>32.27093982533672 -51.236329492438315 0.0 0 0 3.1</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_30</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>33.26453237057432 -47.51399134069149 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_31</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>33.275372457851894 -52.768477282875374 0.0 0 0 -0.8726</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_32</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>39.88199504416645 -44.35854048043779 0.0 0 0 0.3326</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_23</name>
+			<uri>model://Bookshelf</uri>
+			<pose>6.880827521313181 -54.438014967368346 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_24</name>
+			<uri>model://Bookshelf</uri>
+			<pose>10.997597030591715 -54.531223293580815 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_25</name>
+			<uri>model://Bookshelf</uri>
+			<pose>15.352191484990348 -52.17736403875435 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_26</name>
+			<uri>model://Bookshelf</uri>
+			<pose>19.196891227976447 -52.11199502759565 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>MainTable_10</name>
+			<uri>model://MainTable</uri>
+			<pose>21.344542458909068 -54.86710175543897 0.0 0 0 3.1199</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Standing person_34</name>
+			<uri>model://Standing person</uri>
+			<pose>21.451136650471874 -55.69135899790113 0.0 0 0 2.8147</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_27</name>
+			<uri>model://Bookshelf</uri>
+			<pose>15.207492744209404 -54.575733348917524 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Bookshelf_28</name>
+			<uri>model://Bookshelf</uri>
+			<pose>19.159854263111406 -54.633875635224506 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_33</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>18.16659020536706 -53.136793884692935 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_34</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>13.754674683394592 -53.1509188469031 0.0 0 0 -0.5361</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>FemaleVisitor_35</name>
+			<uri>model://FemaleVisitor</uri>
+			<pose>21.954297368272584 -50.34210441391181 0.0 0 0 -0.4145</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Fridge_2</name>
+			<uri>model://Fridge</uri>
+			<pose>95.01894927531835 -49.95498190310512 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Construction Cone_4</name>
+			<uri>model://Construction Cone</uri>
+			<pose>24.9537987911012 -48.66476515145391 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Construction Cone_5</name>
+			<uri>model://Construction Cone</uri>
+			<pose>27.04995960746534 -48.23658170398976 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Construction Cone_6</name>
+			<uri>model://Construction Cone</uri>
+			<pose>69.70438909474457 -48.039981939273765 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Construction Cone_7</name>
+			<uri>model://Construction Cone</uri>
+			<pose>69.73132506919187 -49.83007453379309 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>ParkingTrolleyMax_2</name>
+			<uri>model://ParkingTrolleyMax</uri>
+			<pose>74.5093399024024 -48.779900017841484 0.0 0 0 2.3703</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Fountain_7</name>
+			<uri>model://Fountain</uri>
+			<pose>69.5876117908907 -13.916619017571676 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Construction Cone_8</name>
+			<uri>model://Construction Cone</uri>
+			<pose>25.131839012448015 -50.29726587108184 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>Construction Cone_9</name>
+			<uri>model://Construction Cone</uri>
+			<pose>27.039365885807715 -50.05385663857632 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>MopCart3</name>
+			<uri>model://MopCart3</uri>
+			<pose>23.298303946945087 -36.42786693066627 0.0 0 0 1.5708</pose>
+			<static>False</static>
+		</include>
+		<include>
+			<name>mopcart_dispenser</name>
+			<uri>model://TeleportDispenser</uri>
+			<pose>23.346427364707647 -36.437475189844115 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>mopcart_collector</name>
+			<uri>model://TeleportIngestor</uri>
+			<pose>26.063183177712883 -48.37701010735832 0.0 0 0 1.5708</pose>
+			<static>True</static>
+		</include>
+		<include>
+			<name>caddy</name>
+			<uri>model://Caddy</uri>
+			<pose>280.5335750437675 -44.95055706516528 0.0 0 0 -1.5842385743304779</pose>
+		</include>
+		<include>
+			<name>tinyRobot_3</name>
+			<uri>model://TinyRobot</uri>
+			<pose>21.776503512545712 -27.451042836735567 0.0 0 0 1.5823944566124628</pose>
+		</include>
+		<include>
+			<name>deliveryRobot_2</name>
+			<uri>model://DeliveryRobot</uri>
+			<pose>14.776845640545796 -9.279278953349664 0.0 0 0 0.0047277456919070805</pose>
+		</include>
+		<include>
+			<name>tinyRobot_2</name>
+			<uri>model://TinyRobot</uri>
+			<pose>86.4971624814258 -9.632567252350587 0.0 0 0 -0.0016986342310116715</pose>
+		</include>
+		<include>
+			<name>deliveryRobot_0</name>
+			<uri>model://DeliveryRobot</uri>
+			<pose>96.59527863359884 -51.964504143122 0.0 0 0 -0.01639723672204151</pose>
+		</include>
+		<include>
+			<name>deliveryRobot_1</name>
+			<uri>model://DeliveryRobot</uri>
+			<pose>152.34773630524631 -44.31862925000672 0.0 0 0 0.031108939571390735</pose>
+		</include>
+		<include>
+			<name>tinyRobot_0</name>
+			<uri>model://TinyRobot</uri>
+			<pose>28.719661535704944 -51.1928870214547 0.0 0 0 -1.567689910254945</pose>
+		</include>
+		<include>
+			<name>tinyRobot_1</name>
+			<uri>model://TinyRobot</uri>
+			<pose>67.96710086476676 -49.36132288091133 0.0 0 0 -1.597966650096207</pose>
+		</include>
+		<include>
+			<name>cleanerBotE_0</name>
+			<uri>model://CleanerBotE</uri>
+			<pose>159.69854730754096 -55.561195828696945 0.0 0 0 1.5709567322986409</pose>
+		</include>
+		<include>
+			<name>cleanerBotE_1</name>
+			<uri>model://CleanerBotE</uri>
+			<pose>163.4232669936139 -55.62590786486911 0.0 0 0 1.562578286309474</pose>
+		</include>
+		<include>
+			<name>cleanerBotA_0</name>
+			<uri>model://CleanerBotA</uri>
+			<pose>117.41259866582594 -49.48039959721802 0.0 0 0 -1.5730303359239728</pose>
+		</include>
+		<model name="n02_door">
+			<pose>16.32952389931159 -13.189019220001205 0.0 0 0 1.5676337427711504</pose>
+			<link name="right">
+				<pose>0.6621519759371044 0 1.11 0 0 0</pose>
+				<visual name="right_visual">
+					<geometry>
+						<box>
+							<size>1.3143039518742088 0.03 2.2</size>
+						</box>
+					</geometry>
+					<material>
+						<ambient>0.5 0.25 0 0.6</ambient>
+						<diffuse>0.5 0.25 0 0.6</diffuse>
+					</material>
+				</visual>
+				<collision name="right_collision">
+					<geometry>
+						<box>
+							<size>1.3143039518742088 0.03 2.2</size>
+						</box>
+					</geometry>
+					<surface>
+						<contact>
+							<collide_bitmask>0x02</collide_bitmask>
+						</contact>
+					</surface>
+				</collision>
+				<inertial>
+					<mass>50.0</mass>
+					<inertia>
+						<ixx>20.17041666666667</ixx>
+						<iyy>27.364145324634016</iyy>
+						<izz>7.201228657967344</izz>
+					</inertia>
+				</inertial>
+			</link>
+			<joint name="right_joint" type="revolute">
+				<parent>world</parent>
+				<child>right</child>
+				<axis>
+					<xyz>0 0 1</xyz>
+					<limit>
+						<lower>0</lower>
+						<upper>1.6572222222222224</upper>
+					</limit>
+				</axis>
+				<pose>0.6621519759371044 0 0 0 0 0</pose>
+			</joint>
+			<link name="left">
+				<pose>-0.6621519759371044 0 1.11 0 0 0</pose>
+				<visual name="left_visual">
+					<geometry>
+						<box>
+							<size>1.3143039518742088 0.03 2.2</size>
+						</box>
+					</geometry>
+					<material>
+						<ambient>0.5 0.25 0 0.6</ambient>
+						<diffuse>0.5 0.25 0 0.6</diffuse>
+					</material>
+				</visual>
+				<collision name="left_collision">
+					<geometry>
+						<box>
+							<size>1.3143039518742088 0.03 2.2</size>
+						</box>
+					</geometry>
+					<surface>
+						<contact>
+							<collide_bitmask>0x02</collide_bitmask>
+						</contact>
+					</surface>
+				</collision>
+				<inertial>
+					<mass>50.0</mass>
+					<inertia>
+						<ixx>20.17041666666667</ixx>
+						<iyy>27.364145324634016</iyy>
+						<izz>7.201228657967344</izz>
+					</inertia>
+				</inertial>
+			</link>
+			<joint name="left_joint" type="revolute">
+				<parent>world</parent>
+				<child>left</child>
+				<axis>
+					<xyz>0 0 1</xyz>
+					<limit>
+						<lower>-1.6572222222222224</lower>
+						<upper>0</upper>
+					</limit>
+				</axis>
+				<pose>-0.6621519759371044 0 0 0 0 0</pose>
+			</joint>
+			<plugin name="door" filename="libdoor.so">
+				<v_max_door>0.5</v_max_door>
+				<a_max_door>0.3</a_max_door>
+				<a_nom_door>0.15</a_nom_door>
+				<dx_min_door>0.01</dx_min_door>
+				<f_max_door>500.0</f_max_door>
+				<door name="n02_door" type="DoubleSwingDoor" left_joint_name="left_joint" right_joint_name="right_joint" />
+			</plugin>
+		</model>
+		<model name="n01_door">
+			<pose>1.5235249937389859 -40.44986779813934 0.0 0 0 3.134201392889213</pose>
+			<link name="right">
+				<pose>0.5888709777587251 0 1.11 0 0 0</pose>
+				<visual name="right_visual">
+					<geometry>
+						<box>
+							<size>1.1677419555174502 0.03 2.2</size>
+						</box>
+					</geometry>
+					<material>
+						<ambient>0.5 0.25 0 0.6</ambient>
+						<diffuse>0.5 0.25 0 0.6</diffuse>
+					</material>
+				</visual>
+				<collision name="right_collision">
+					<geometry>
+						<box>
+							<size>1.1677419555174502 0.03 2.2</size>
+						</box>
+					</geometry>
+					<surface>
+						<contact>
+							<collide_bitmask>0x02</collide_bitmask>
+						</contact>
+					</surface>
+				</collision>
+				<inertial>
+					<mass>50.0</mass>
+					<inertia>
+						<ixx>20.17041666666667</ixx>
+						<iyy>25.8484219778155</iyy>
+						<izz>5.685505311148828</izz>
+					</inertia>
+				</inertial>
+			</link>
+			<joint name="right_joint" type="revolute">
+				<parent>world</parent>
+				<child>right</child>
+				<axis>
+					<xyz>0 0 1</xyz>
+					<limit>
+						<lower>0</lower>
+						<upper>1.6572222222222224</upper>
+					</limit>
+				</axis>
+				<pose>0.5888709777587251 0 0 0 0 0</pose>
+			</joint>
+			<link name="left">
+				<pose>-0.5888709777587251 0 1.11 0 0 0</pose>
+				<visual name="left_visual">
+					<geometry>
+						<box>
+							<size>1.1677419555174502 0.03 2.2</size>
+						</box>
+					</geometry>
+					<material>
+						<ambient>0.5 0.25 0 0.6</ambient>
+						<diffuse>0.5 0.25 0 0.6</diffuse>
+					</material>
+				</visual>
+				<collision name="left_collision">
+					<geometry>
+						<box>
+							<size>1.1677419555174502 0.03 2.2</size>
+						</box>
+					</geometry>
+					<surface>
+						<contact>
+							<collide_bitmask>0x02</collide_bitmask>
+						</contact>
+					</surface>
+				</collision>
+				<inertial>
+					<mass>50.0</mass>
+					<inertia>
+						<ixx>20.17041666666667</ixx>
+						<iyy>25.8484219778155</iyy>
+						<izz>5.685505311148828</izz>
+					</inertia>
+				</inertial>
+			</link>
+			<joint name="left_joint" type="revolute">
+				<parent>world</parent>
+				<child>left</child>
+				<axis>
+					<xyz>0 0 1</xyz>
+					<limit>
+						<lower>-1.6572222222222224</lower>
+						<upper>0</upper>
+					</limit>
+				</axis>
+				<pose>-0.5888709777587251 0 0 0 0 0</pose>
+			</joint>
+			<plugin name="door" filename="libdoor.so">
+				<v_max_door>0.5</v_max_door>
+				<a_max_door>0.3</a_max_door>
+				<a_nom_door>0.15</a_nom_door>
+				<dx_min_door>0.01</dx_min_door>
+				<f_max_door>500.0</f_max_door>
+				<door name="n01_door" type="DoubleSwingDoor" left_joint_name="left_joint" right_joint_name="right_joint" />
+			</plugin>
+		</model>
+		<model name="s04_door">
+			<pose>28.73390968072509 -47.274154409675184 0.0 0 0 -3.1081700415635134</pose>
+			<link name="right">
+				<pose>0 0 1.11 0 0 0</pose>
+				<visual name="right_visual">
+					<geometry>
+						<box>
+							<size>1.2015636603492745 0.03 2.2</size>
+						</box>
+					</geometry>
+					<material>
+						<ambient>0.5 0.25 0 0.6</ambient>
+						<diffuse>0.5 0.25 0 0.6</diffuse>
+					</material>
+				</visual>
+				<collision name="right_collision">
+					<geometry>
+						<box>
+							<size>1.2015636603492745 0.03 2.2</size>
+						</box>
+					</geometry>
+					<surface>
+						<contact>
+							<collide_bitmask>0x02</collide_bitmask>
+						</contact>
+					</surface>
+				</collision>
+				<inertial>
+					<mass>50.0</mass>
+					<inertia>
+						<ixx>20.17041666666667</ixx>
+						<iyy>26.182313457799783</iyy>
+						<izz>6.019396791133111</izz>
+					</inertia>
+				</inertial>
+			</link>
+			<joint name="right_joint" type="revolute">
+				<parent>world</parent>
+				<child>right</child>
+				<axis>
+					<xyz>0 0 -1</xyz>
+					<limit>
+						<lower>0</lower>
+						<upper>1.6572222222222224</upper>
+					</limit>
+				</axis>
+				<pose>0.6057818301746373 0 0 0 0 0</pose>
+			</joint>
+			<plugin name="door" filename="libdoor.so">
+				<v_max_door>0.5</v_max_door>
+				<a_max_door>0.3</a_max_door>
+				<a_nom_door>0.15</a_nom_door>
+				<dx_min_door>0.01</dx_min_door>
+				<f_max_door>500.0</f_max_door>
+				<door name="s04_door" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+			</plugin>
+		</model>
+		<model name="s08_door">
+			<pose>93.01533981018017 -44.236384193881804 0.0 0 0 -0.04792369781717709</pose>
+			<link name="right">
+				<pose>0 0 1.11 0 0 0</pose>
+				<visual name="right_visual">
+					<geometry>
+						<box>
+							<size>2.4328097402213444 0.03 2.2</size>
+						</box>
+					</geometry>
+					<material>
+						<ambient>0.5 0.25 0 0.6</ambient>
+						<diffuse>0.5 0.25 0 0.6</diffuse>
+					</material>
+				</visual>
+				<collision name="right_collision">
+					<geometry>
+						<box>
+							<size>2.4328097402213444 0.03 2.2</size>
+						</box>
+					</geometry>
+					<surface>
+						<contact>
+							<collide_bitmask>0x02</collide_bitmask>
+						</contact>
+					</surface>
+				</collision>
+				<inertial>
+					<mass>50.0</mass>
+					<inertia>
+						<ixx>20.17041666666667</ixx>
+						<iyy>44.8273468004827</iyy>
+						<izz>24.664430133816023</izz>
+					</inertia>
+				</inertial>
+			</link>
+			<joint name="right_joint" type="revolute">
+				<parent>world</parent>
+				<child>right</child>
+				<axis>
+					<xyz>0 0 1</xyz>
+					<limit>
+						<lower>0</lower>
+						<upper>1.57</upper>
+					</limit>
+				</axis>
+				<pose>1.2214048701106721 0 0 0 0 0</pose>
+			</joint>
+			<plugin name="door" filename="libdoor.so">
+				<v_max_door>0.5</v_max_door>
+				<a_max_door>0.3</a_max_door>
+				<a_nom_door>0.15</a_nom_door>
+				<dx_min_door>0.01</dx_min_door>
+				<f_max_door>500.0</f_max_door>
+				<door name="s08_door" type="SwingDoor" left_joint_name="empty_joint" right_joint_name="right_joint" />
+			</plugin>
+		</model>
+		<model name="zone_4_door">
+			<pose>122.95221175215931 -51.78087963438976 0.0 0 0 1.576711873276658</pose>
+			<link name="right">
+				<pose>0.4720037254296668 0 1.11 0 0 0</pose>
+				<visual name="right_visual">
+					<geometry>
+						<box>
+							<size>0.9340074508593336 0.03 2.2</size>
+						</box>
+					</geometry>
+					<material>
+						<ambient>0.5 0.25 0 0.6</ambient>
+						<diffuse>0.5 0.25 0 0.6</diffuse>
+					</material>
+				</visual>
+				<collision name="right_collision">
+					<geometry>
+						<box>
+							<size>0.9340074508593336 0.03 2.2</size>
+						</box>
+					</geometry>
+					<surface>
+						<contact>
+							<collide_bitmask>0x02</collide_bitmask>
+						</contact>
+					</surface>
+				</collision>
+				<inertial>
+					<mass>50.0</mass>
+					<inertia>
+						<ixx>20.17041666666667</ixx>
+						<iyy>23.801541326086465</iyy>
+						<izz>3.6386246594197935</izz>
+					</inertia>
+				</inertial>
+			</link>
+			<joint name="right_joint" type="revolute">
+				<parent>world</parent>
+				<child>right</child>
+				<axis>
+					<xyz>0 0 -1</xyz>
+					<limit>
+						<lower>0</lower>
+						<upper>1.57</upper>
+					</limit>
+				</axis>
+				<pose>0.4720037254296668 0 0 0 0 0</pose>
+			</joint>
+			<link name="left">
+				<pose>-0.4720037254296668 0 1.11 0 0 0</pose>
+				<visual name="left_visual">
+					<geometry>
+						<box>
+							<size>0.9340074508593336 0.03 2.2</size>
+						</box>
+					</geometry>
+					<material>
+						<ambient>0.5 0.25 0 0.6</ambient>
+						<diffuse>0.5 0.25 0 0.6</diffuse>
+					</material>
+				</visual>
+				<collision name="left_collision">
+					<geometry>
+						<box>
+							<size>0.9340074508593336 0.03 2.2</size>
+						</box>
+					</geometry>
+					<surface>
+						<contact>
+							<collide_bitmask>0x02</collide_bitmask>
+						</contact>
+					</surface>
+				</collision>
+				<inertial>
+					<mass>50.0</mass>
+					<inertia>
+						<ixx>20.17041666666667</ixx>
+						<iyy>23.801541326086465</iyy>
+						<izz>3.6386246594197935</izz>
+					</inertia>
+				</inertial>
+			</link>
+			<joint name="left_joint" type="revolute">
+				<parent>world</parent>
+				<child>left</child>
+				<axis>
+					<xyz>0 0 -1</xyz>
+					<limit>
+						<lower>-1.57</lower>
+						<upper>0</upper>
+					</limit>
+				</axis>
+				<pose>-0.4720037254296668 0 0 0 0 0</pose>
+			</joint>
+			<plugin name="door" filename="libdoor.so">
+				<v_max_door>0.5</v_max_door>
+				<a_max_door>0.3</a_max_door>
+				<a_nom_door>0.15</a_nom_door>
+				<dx_min_door>0.01</dx_min_door>
+				<f_max_door>500.0</f_max_door>
+				<door name="zone_4_door" type="DoubleSwingDoor" left_joint_name="left_joint" right_joint_name="right_joint" />
+			</plugin>
+		</model>
+		<include>
+			<name>airport_terminal_L1</name>
+			<uri>model://airport_terminal_L1</uri>
+			<pose>0 0 0.0 0 0 0</pose>
+		</include>
+		<rmf_charger_waypoints name="charger_waypoints">
+			<rmf_vertex name="charger_tinyRobot_3" x="267.0690369387946" y="-61.44563866107981" level="L1" />
+			<rmf_vertex name="charger_tinyRobot_2" x="265.0190286152335" y="-61.44563866107981" level="L1" />
+			<rmf_vertex name="charger_tinyRobot_1" x="262.8078150543551" y="-61.44563866107981" level="L1" />
+			<rmf_vertex name="charger_tinyRobot_0" x="260.3432555143001" y="-61.4225624146783" level="L1" />
+			<rmf_vertex name="n03" x="21.776503512545712" y="-27.451042836735567" level="L1" />
+			<rmf_vertex name="charger_deliveryRobot_0" x="12.14664628201452" y="-1.7813876759479343" level="L1" />
+			<rmf_vertex name="charger_deliveryRobot_1" x="15.053432109870556" y="-6.301950436316086" level="L1" />
+			<rmf_vertex name="charger_deliveryRobot_2" x="14.776845640545796" y="-9.279278953349664" level="L1" />
+			<rmf_vertex name="n13" x="86.4971624814258" y="-9.632567252350587" level="L1" />
+			<rmf_vertex name="s08" x="96.59527863359884" y="-51.964504143122" level="L1" />
+			<rmf_vertex name="s11" x="152.34773630524631" y="-44.31862925000672" level="L1" />
+			<rmf_vertex name="s03" x="28.719661535704944" y="-51.1928870214547" level="L1" />
+			<rmf_vertex name="s07" x="67.96710086476676" y="-49.36132288091133" level="L1" />
+			<rmf_vertex name="charger_cleanerBotE_0" x="159.69854730754096" y="-55.561195828696945" level="L1" />
+			<rmf_vertex name="charger_cleanerBotE_1" x="163.4232669936139" y="-55.62590786486911" level="L1" />
+			<rmf_vertex name="charger_cleanerBotA_0" x="117.41259866582594" y="-49.48039959721802" level="L1" />
+		</rmf_charger_waypoints>
+		<plugin filename="libcrowd_simulator.so" name="crowd_simulation">
+			<behavior_file>behavior_file.xml</behavior_file>
+			<scene_file>scene_file.xml</scene_file>
+			<update_time_step>0.1</update_time_step>
+			<model_type>
+				<typename>human</typename>
+				<animation>walk</animation>
+				<animation_speed>1</animation_speed>
+				<filename>model://MaleVisitorPhone</filename>
+				<initial_pose>0 0 0 0 0 0</initial_pose>
+			</model_type>
+			<external_agent>tinyRobot_3</external_agent>
+			<external_agent>deliveryRobot_2</external_agent>
+			<external_agent>tinyRobot_2</external_agent>
+			<external_agent>deliveryRobot_0</external_agent>
+			<external_agent>deliveryRobot_1</external_agent>
+			<external_agent>tinyRobot_0</external_agent>
+			<external_agent>tinyRobot_1</external_agent>
+			<external_agent>cleanerBotE_0</external_agent>
+			<external_agent>cleanerBotE_1</external_agent>
+			<external_agent>cleanerBotA_0</external_agent>
+			<external_agent>caddy</external_agent>
+		</plugin>
+	</world>
+</sdf>

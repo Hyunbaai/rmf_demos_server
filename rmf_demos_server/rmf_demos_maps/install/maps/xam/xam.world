@@ -1,0 +1,34 @@
+<sdf version="1.7">
+  <world name="world">
+    <scene>
+      <ambient>0.8 0.8 0.8 1.0</ambient>
+      <background>0 0 0</background>
+      <grid>false</grid>
+    </scene>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <gui>
+      <camera name="gui_camera">
+        <pose>6.869540808219948 -26.344258281266313 10 0 0.6 1.57</pose>
+      </camera>
+      <plugin name="toggle_charging" filename="libtoggle_charging.so" />
+      <plugin name="toggle_floors" filename="libtoggle_floors.so">
+        <floor name="L1" model_name="building_L1" />
+      </plugin>
+    </gui>
+    <include>
+      <name>ing1</name>
+      <uri>model://Turtlebot3</uri>
+      <pose>3.274607383101465 -8.852858294731378 0.0 0 0 0.0</pose>
+    </include>
+    <include>
+      <name>building_L1</name>
+      <uri>model://building_L1</uri>
+      <pose>0 0 0.0 0 0 0</pose>
+    </include>
+    <rmf_charger_waypoints name="charger_waypoints">
+      <rmf_vertex name="charger1" x="3.274607383101465" y="-8.852858294731378" level="L1" />
+    </rmf_charger_waypoints>
+  </world>
+</sdf>

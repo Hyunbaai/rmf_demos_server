@@ -1,0 +1,19 @@
+{
+  "world_name" : "GL World",
+  "valid_task": ["Loop"],
+  "task": {
+    "Delivery": { },
+    "Loop": {
+      "places": [
+        "target_01",
+        "target_02",
+        "target_03",
+        "charger_01"
+      ]
+    },
+    "Clean": { },
+    "Station": { },
+    "Patrol": {  },
+    "Charging": { }
+  }
+}

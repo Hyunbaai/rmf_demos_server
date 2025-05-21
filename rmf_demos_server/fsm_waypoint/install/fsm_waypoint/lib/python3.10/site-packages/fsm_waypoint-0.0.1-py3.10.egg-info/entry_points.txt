@@ -1,0 +1,3 @@
+[console_scripts]
+fsm_waypoint_node = fsm_waypoint.fsm_waypoint_node:main
+

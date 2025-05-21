@@ -1,0 +1,52 @@
+<sdf version="1.7">
+  <world name="world">
+    <scene>
+      <ambient>0.8 0.8 0.8 1.0</ambient>
+      <background>0 0 0</background>
+      <grid>false</grid>
+    </scene>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <gui>
+      <camera name="gui_camera">
+        <pose>10.006757336240202 -27.093896286613592 10 0 0.6 1.57</pose>
+      </camera>
+      <plugin name="toggle_charging" filename="libtoggle_charging.so" />
+      <plugin name="toggle_floors" filename="libtoggle_floors.so">
+        <floor name="L1" model_name="building_L1" />
+      </plugin>
+    </gui>
+    <include>
+      <name>tinyRobotTopLeft</name>
+      <uri>model://TinyRobot</uri>
+      <pose>7.353899819419558 -1.7822188821673408 0.0 0 0 -1.5708108172384483</pose>
+    </include>
+    <include>
+      <name>tinyRobotBottomLeft</name>
+      <uri>model://TinyRobot</uri>
+      <pose>7.35045489406558 -12.405794519608175 0.0 0 0 -1.5709991136631158</pose>
+    </include>
+    <include>
+      <name>tinyRobotTopRight</name>
+      <uri>model://TinyRobot</uri>
+      <pose>12.654800790707212 -1.7776256483620376 0.0 0 0 -1.5707817612133665</pose>
+    </include>
+    <include>
+      <name>tinyRobotBottomRight</name>
+      <uri>model://TinyRobot</uri>
+      <pose>12.652680836643228 -12.385831618838973 0.0 0 0 -1.5705923432912494</pose>
+    </include>
+    <include>
+      <name>building_L1</name>
+      <uri>model://building_L1</uri>
+      <pose>0 0 0.0 0 0 0</pose>
+    </include>
+    <rmf_charger_waypoints name="charger_waypoints">
+      <rmf_vertex name="TopCenterLeft" x="7.353899819419558" y="-1.7822188821673408" level="L1" />
+      <rmf_vertex name="BottomCenterLeft" x="7.35045489406558" y="-12.405794519608175" level="L1" />
+      <rmf_vertex name="TopCenterRight" x="12.654800790707212" y="-1.7776256483620376" level="L1" />
+      <rmf_vertex name="BottomCenterRight" x="12.652680836643228" y="-12.385831618838973" level="L1" />
+    </rmf_charger_waypoints>
+  </world>
+</sdf>

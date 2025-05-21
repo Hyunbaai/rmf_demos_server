@@ -1,0 +1,127 @@
+<BFSM>
+	<State name="external_static" final="1" />
+	<State name="crowd_goal1_state" final="0">
+		<GoalSelector dist="u" type="weighted" goal_set="0" />
+		<VelComponent type="nav_mesh" heading_threshold="15" file_name="L1_navmesh.nav" />
+	</State>
+	<State name="crowd_goal2_state" final="0">
+		<GoalSelector dist="u" type="weighted" goal_set="1" />
+		<VelComponent type="nav_mesh" heading_threshold="15" file_name="L1_navmesh.nav" />
+	</State>
+	<State name="crowd_goal3_state" final="0">
+		<GoalSelector dist="u" type="weighted" goal_set="2" />
+		<VelComponent type="nav_mesh" heading_threshold="15" file_name="L1_navmesh.nav" />
+	</State>
+	<State name="crowd_goal4_state" final="0">
+		<GoalSelector dist="u" type="weighted" goal_set="3" />
+		<VelComponent type="nav_mesh" heading_threshold="15" file_name="L1_navmesh.nav" />
+	</State>
+	<State name="crowd_goal5_state" final="0">
+		<GoalSelector dist="u" type="weighted" goal_set="4" />
+		<VelComponent type="nav_mesh" heading_threshold="15" file_name="L1_navmesh.nav" />
+	</State>
+	<State name="crowd_goal6_state" final="0">
+		<GoalSelector dist="u" type="weighted" goal_set="5" />
+		<VelComponent type="nav_mesh" heading_threshold="15" file_name="L1_navmesh.nav" />
+	</State>
+	<State name="crowd_goal7_state" final="0">
+		<GoalSelector dist="u" type="weighted" goal_set="6" />
+		<VelComponent type="nav_mesh" heading_threshold="15" file_name="L1_navmesh.nav" />
+	</State>
+	<Transition from="crowd_goal1_state" to="">
+		<Condition type="or">
+			<Condition type="goal_reached" distance="1.0" />
+			<Condition type="timer" per_agent="True" dist="c" value="5" />
+		</Condition>
+		<Target type="prob">
+			<State weight="0.2" name="crowd_goal4_state" />
+			<State weight="0.4" name="crowd_goal2_state" />
+			<State weight="0.4" name="crowd_goal3_state" />
+		</Target>
+	</Transition>
+	<Transition from="crowd_goal2_state" to="">
+		<Condition type="or">
+			<Condition type="goal_reached" distance="1.0" />
+			<Condition type="timer" per_agent="True" dist="c" value="5" />
+		</Condition>
+		<Target type="prob">
+			<State weight="0.4" name="crowd_goal1_state" />
+			<State weight="0.4" name="crowd_goal2_state" />
+			<State weight="0.2" name="crowd_goal5_state" />
+		</Target>
+	</Transition>
+	<Transition from="crowd_goal3_state" to="">
+		<Condition type="or">
+			<Condition type="goal_reached" distance="1.0" />
+			<Condition type="timer" per_agent="True" dist="c" value="5" />
+		</Condition>
+		<Target type="prob">
+			<State weight="0.3" name="crowd_goal2_state" />
+			<State weight="0.3" name="crowd_goal4_state" />
+			<State weight="0.4" name="crowd_goal6_state" />
+		</Target>
+	</Transition>
+	<Transition from="crowd_goal4_state" to="">
+		<Condition type="or">
+			<Condition type="goal_reached" distance="1.0" />
+			<Condition type="timer" per_agent="True" dist="c" value="5" />
+		</Condition>
+		<Target type="prob">
+			<State weight="0.2" name="crowd_goal1_state" />
+			<State weight="0.4" name="crowd_goal2_state" />
+			<State weight="0.4" name="crowd_goal3_state" />
+		</Target>
+	</Transition>
+	<Transition from="crowd_goal5_state" to="">
+		<Condition type="or">
+			<Condition type="goal_reached" distance="1.0" />
+			<Condition type="timer" per_agent="True" dist="c" value="5" />
+		</Condition>
+		<Target type="prob">
+			<State weight="0.3" name="crowd_goal3_state" />
+			<State weight="0.3" name="crowd_goal4_state" />
+			<State weight="0.4" name="crowd_goal7_state" />
+		</Target>
+	</Transition>
+	<Transition from="crowd_goal6_state" to="">
+		<Condition type="or">
+			<Condition type="goal_reached" distance="1.0" />
+			<Condition type="timer" per_agent="True" dist="c" value="5" />
+		</Condition>
+		<Target type="prob">
+			<State weight="0.5" name="crowd_goal3_state" />
+			<State weight="0.5" name="crowd_goal7_state" />
+		</Target>
+	</Transition>
+	<Transition from="crowd_goal7_state" to="">
+		<Condition type="or">
+			<Condition type="goal_reached" distance="1.0" />
+			<Condition type="timer" per_agent="True" dist="c" value="5" />
+		</Condition>
+		<Target type="prob">
+			<State weight="0.5" name="crowd_goal5_state" />
+			<State weight="0.5" name="crowd_goal6_state" />
+		</Target>
+	</Transition>
+	<GoalSet id="0">
+		<Goal id="0" type="point" x="131.4676751618066" y="-32.308715887061595" weight="1.0" capacity="10" />
+	</GoalSet>
+	<GoalSet id="1">
+		<Goal id="0" type="point" x="144.56808488050098" y="-32.006507393262574" weight="1.0" capacity="10" />
+	</GoalSet>
+	<GoalSet id="2">
+		<Goal id="0" type="point" x="145.3123554183544" y="-45.35098331944898" weight="1.0" capacity="10" />
+	</GoalSet>
+	<GoalSet id="3">
+		<Goal id="0" type="point" x="138.0293770834179" y="-41.32947518321579" weight="1.0" capacity="10" />
+	</GoalSet>
+	<GoalSet id="4">
+		<Goal id="0" type="point" x="130.80963259093392" y="-45.09771946214567" weight="1.0" capacity="10" />
+	</GoalSet>
+	<GoalSet id="5">
+		<Goal id="0" type="point" x="150.22053342076913" y="-49.56252147053297" weight="1.0" capacity="10" />
+	</GoalSet>
+	<GoalSet id="6">
+		<Goal id="0" type="point" x="125.4265437951388" y="-49.46750646310757" weight="1.0" capacity="10" />
+	</GoalSet>
+</BFSM>

@@ -1,0 +1,76 @@
+# FLEET CONFIG =================================================================
+# RMF Fleet parameters
+
+rmf_fleet:
+  name: "sim_bot"
+  limits:
+    linear: [0.5, 0.75] # velocity, acceleration
+    angular: [0.6, 2.0] # velocity, acceleration
+  profile: # Robot profile is modelled as a circle
+    footprint: 0.3 # radius in m
+    vicinity: 0.5 # radius in m
+  reversible: True # whether robots in this fleet can reverse
+  battery_system:
+    voltage: 12.0 # V
+    capacity: 24.0 # Ahr
+    charging_current: 5.0 # A
+  mechanical_system:
+    mass: 20.0 # kg
+    moment_of_inertia: 10.0 #kgm^2
+    friction_coefficient: 0.22
+  ambient_system:
+    power: 20.0 # W
+  tool_system:
+    power: 0.0 # W
+  recharge_threshold: 0.10 # Battery level below which robots in this fleet will not operate
+  recharge_soc: 1.0 # Battery level to which robots in this fleet should be charged up to during recharging tasks
+  publish_fleet_state: 10.0 # Publish frequency for fleet state, ensure that it is same as robot_state_update_frequency
+  account_for_battery_drain: True
+  task_capabilities: # Specify the types of RMF Tasks that robots in this fleet are capable of performing
+    loop: True
+    delivery: True
+  actions: ["teleop"] # actions: ["some_action_here"]
+  finishing_request: "nothing" # [park, charge, nothing]
+  responsive_wait: True # Should responsive wait be on/off for the whole fleet by default? False if not specified.
+  robots:
+    tinybot1:
+      charger: "c0"
+#    tinybot2:
+#      charger: "c1"
+#    tinybot3:
+#      charger: "c2"
+  zero_path: "/home/bcc/Works1/ws_server/install/rmf_demos_maps/share/rmf_demos_maps/maps/office/nav_graphs/0.yaml"
+
+
+# TRANSFORM CONFIG =============================================================
+# For computing transforms between Robot and RMF coordinate systems
+
+
+fleet_manager:
+  ip: "0.0.0.0"
+  port: 22011
+  user: "some_user"
+  password: "some_password"
+  # Optional
+  reference_coordinates:
+    L1:
+# 이미지 원본 x=−2.4673, y=1.6716
+#      rmf: [ [ 8.4909, -3.0222 ],
+#             [ 10.5734, -4.7068],
+#             [ 19.4283, -6.1121 ],
+#             [ 7.8983, -6.2983 ] ]
+#      robot: [ [ -4.4281, 4.2296 ],
+#               [ -2.3051, 2.5359 ],
+#               [ 6.5535, 1.17029 ],
+#               [ -5.0098, 0.9286 ] ]
+# cato mapp x=3.0899, y=0.5361
+      rmf: [ [ 8.4909, -3.0222 ],
+             [ 10.5734, -4.7068],
+             [ 19.4283, -6.1121 ],
+             [ 7.8983, -6.2983 ] ]
+      robot: [ [ 0.6489, 2.5933 ],
+               [ 3.0463, 1.3754 ],
+               [ 12.0011, 1.7940 ],
+               [ 0.7717, -0.6532 ] ]
+
+  robot_state_update_frequency: 5.0 # Frequency at which robot state is updated

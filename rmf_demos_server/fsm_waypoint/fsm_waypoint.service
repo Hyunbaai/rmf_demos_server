@@ -1,0 +1,14 @@
+[Unit]
+Description=FSM Waypoint ROS2 Node
+After=network.target
+
+[Service]
+User=zeta
+WorkingDirectory=/home/zeta/ws_server/src/rmf_demos_server/fsm_waypoint
+ExecStart=/home/zeta/ws_server/src/rmf_demos_server/fsm_waypoint/start_fsm.sh
+Restart=on-failure
+Environment=ROS_LOG_DIR=/home/zeta/.ros/log
+
+[Install]
+WantedBy=multi-user.target
+

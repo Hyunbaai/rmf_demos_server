@@ -1,0 +1,107 @@
+coordinate_system: wgs84
+crowd_sim:
+  agent_groups:
+    - {agents_name: [yellow, green], agents_number: 2, group_id: 0, profile_selector: external_agent, state_selector: external_static, x: 0, y: 0}
+  agent_profiles:
+    - {ORCA_tau: 1, ORCA_tauObst: 0.40000000000000002, class: 1, max_accel: 0, max_angle_vel: 0, max_neighbors: 10, max_speed: 0, name: external_agent, neighbor_dist: 5, obstacle_set: 1, pref_speed: 0, r: 0.25}
+  enable: 0
+  goal_sets: []
+  model_types: []
+  obstacle_set: {class: 1, file_name: L1_navmesh.nav, type: nav_mesh}
+  states:
+    - {final: 1, goal_set: -1, name: external_static, navmesh_file_name: ""}
+  transitions: []
+  update_time_step: 0.10000000000000001
+graphs:
+  {}
+levels:
+  L1:
+    elevation: 0
+    lanes:
+      - [35, 41, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [34, 44, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [44, 41, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [41, 29, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [29, 43, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [46, 22, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [42, 30, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [30, 36, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [36, 45, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [45, 44, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [36, 41, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [26, 47, {bidirectional: [4, true], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [47, 48, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [48, 42, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [49, 46, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [46, 47, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [43, 49, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+    layers:
+      campus_reference:
+        color: [0.114, 0.157, 1, 0.5]
+        filename: campus_reference.png
+        transform:
+          scale: 0.10000000000000001
+          translation_lat: 37.607358840000003
+          translation_lon: 126.89252941000001
+          yaw: -1.5707963267948966
+        visible: true
+    vertices:
+      - [126.89126549760799, 37.607780469907695, 0, o, {is_charger: [4, true], is_holding_point: [4, true], is_parking_spot: [4, true]}]
+      - [126.89097338039811, 37.607782755051893, 0, ""]
+      - [126.89096349870501, 37.607611701736502, 0, y00]
+      - [126.891240468392, 37.607793480855598, 0, y, {is_charger: [4, true]}]
+      - [126.89109482882799, 37.6078011194395, 0, ""]
+      - [126.891017271066, 37.607756723039195, 0, ""]
+      - [126.89121820640345, 37.607779933465082, 0, "", {is_charger: [4, false]}]
+      - [126.89095599057897, 37.607693003117483, 0, ""]
+      - [126.89095408724801, 37.6078013031902, 0, ""]
+      - [126.89097208205179, 37.607611694420626, 0, o00]
+      - [126.89111167182524, 37.607801005017201, 0, ""]
+      - [126.89119420454199, 37.607800337844139, 0, ""]
+      - [126.8911944852655, 37.607778321129707, 0, ""]
+      - [126.89119420454199, 37.60775919549372, 0, ""]
+      - [126.89110942603703, 37.607759640276015, 0, ""]
+      - [126.89111054893115, 37.607778321129707, 0, ""]
+      - [126.89107672174623, 37.607800671430667, 0, ""]
+      - [126.8909708889768, 37.607800671430667, 0, ""]
+      - [126.89115209601303, 37.607800949419435, 0, ""]
+      - [126.89115237673657, 37.60775958467822, 0, ""]
+      - [126.89107658138445, 37.607760363047227, 0, ""]
+      - [126.89124024320026, 37.607778654716348, 0, ""]
+      - [126.89095692298137, 37.607713827686325, 0, d2]
+      - [126.89097278386062, 37.607653226037705, 0, ""]
+      - [126.89099973331915, 37.607653003646242, 0, ""]
+      - [126.89100071585149, 37.607723056923895, 0, ""]
+      - [126.89097517001058, 37.607713938881965, 0, d1]
+      - [126.8909632392607, 37.60765289245051, 0, ""]
+      - [126.89114002490138, 37.607784992862044, 0, ""]
+      - [126.89108016060943, 37.607783658515629, 0, p1, {is_charger: [4, false]}]
+      - [126.89107886226311, 37.607773414626188, 0, p2]
+      - [126.89115893864899, 37.607769008502345, 0, ""]
+      - [126.8909621865475, 37.607800449039637, 0, ""]
+      - [126.89118978314644, 37.607801838983519, 0, ""]
+      - [126.8911979241287, 37.607782435364726, 0, s2, {is_charger: [4, true], spawn_robot_name: [1, yellow]}]
+      - [126.89117006231871, 37.607795500839252, 0, s1, {is_charger: [4, true], spawn_robot_name: [1, orange]}]
+      - [126.89116925523858, 37.607772691855104, 0, ""]
+      - [126.89119020423173, 37.60775958467822, 0, ""]
+      - [126.89119048495525, 37.607771927385677, 0, ""]
+      - [126.89119048495525, 37.607764699674348, 0, ""]
+      - [126.89098664458473, 37.607762225573012, 0, ""]
+      - [126.89117027286136, 37.607782880146871, 0, ""]
+      - [126.8909762929047, 37.607774318090023, 0, ""]
+      - [126.89095832659902, 37.607784325688833, 0, ""]
+      - [126.8911819228877, 37.607782880146871, 0, ""]
+      - [126.89118174743547, 37.607772803050636, 0, ""]
+      - [126.8909576247902, 37.607739625070394, 0, ""]
+      - [126.89097580163853, 37.60773929148359, 0, ""]
+      - [126.89097615254292, 37.607752746150233, 0, ""]
+      - [126.89095790551373, 37.607752857345815, 0, ""]
+    x_meters: 10
+    y_meters: 10
+lifts: {}
+name: gl
+parameters:
+  generate_crs: [1, EPSG:5174]
+  suggested_offset_x: [3, 14125527]
+  suggested_offset_y: [3, 4524111]
+reference_level_name: L1

@@ -1,0 +1,24 @@
+FROM ros:iron
+ARG DEBIAN_FRONTEND=noninteractive
+SHELL ["/bin/bash", "-c"]
+
+RUN apt-get update && apt-get install -y xterm htop vim curl wget &&  \
+    rm -rf /var/lib/apt/lists/* && \
+    curl -sL https://deb.nodesource.com/setup_16.x | bash - && \
+    apt-get install -y nodejs && \
+    npm install pm2 -g && \
+    pm2 install pm2-logrotate && pm2 set pm2-logrotate:max_size 1K
+
+# install cyclone dds
+RUN apt-get update && apt-get install -y \
+    # ros-$ROS_DISTRO-rmw-cyclonedds-cpp \
+    ros-$ROS_DISTRO-demo-nodes-cpp \
+    && rm -rf /var/lib/apt/lists/*
+
+# ENV RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+ENV RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+
+CMD source /opt/ros/$ROS_DISTRO/setup.sh && /bin/bash
+
+## base 이미지는 항상 최신
+# docker build -t zaxrok/amr:iron-pm2 -f Dockerfile .

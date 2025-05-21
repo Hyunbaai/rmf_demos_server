@@ -1,0 +1,76 @@
+<Experiment version="2.0">
+	<SpatialQuery type="kd-tree" test_visibility="false" />
+	<Common time_step="0.1" />
+	<ObstacleSet type="nav_mesh" file_name="L1_navmesh.nav" class="1" />
+	<AgentProfile name="external_agent">
+		<Common class="1" max_accel="5" max_angle_vel="360" max_neighbors="10" max_speed="2" neighbor_dist="5.0" pref_speed="0" r="0.25" obstacleSet="1" />
+		<ORCA tau="1.0" tauObst="0.4" />
+	</AgentProfile>
+	<AgentProfile name="human">
+		<Common class="1" max_accel="5.0" max_angle_vel="360.0" max_neighbors="10" max_speed="4.0" neighbor_dist="5.0" pref_speed="2.0" r="0.25" obstacleSet="1" />
+		<ORCA tau="1.0" tauObst="0.4" />
+	</AgentProfile>
+	<AgentGroup>
+		<ProfileSelector type="const" name="external_agent" />
+		<StateSelector type="const" name="external_static" />
+		<Generator type="explicit">
+			<Agent p_x="0.0" p_y="0.0" />
+			<Agent p_x="0.0" p_y="0.0" />
+			<Agent p_x="0.0" p_y="0.0" />
+			<Agent p_x="0.0" p_y="0.0" />
+			<Agent p_x="0.0" p_y="0.0" />
+			<Agent p_x="0.0" p_y="0.0" />
+			<Agent p_x="0.0" p_y="0.0" />
+			<Agent p_x="0.0" p_y="0.0" />
+			<Agent p_x="0.0" p_y="0.0" />
+			<Agent p_x="0.0" p_y="0.0" />
+		</Generator>
+	</AgentGroup>
+	<AgentGroup>
+		<ProfileSelector type="const" name="external_agent" />
+		<StateSelector type="const" name="external_static" />
+		<Generator type="explicit">
+			<Agent p_x="0.2" p_y="0.2" />
+		</Generator>
+	</AgentGroup>
+	<AgentGroup>
+		<ProfileSelector type="const" name="human" />
+		<StateSelector type="const" name="crowd_goal1_state" />
+		<Generator type="explicit">
+			<Agent p_x="131.5" p_y="-32.31" />
+			<Agent p_x="131.5" p_y="-32.31" />
+		</Generator>
+	</AgentGroup>
+	<AgentGroup>
+		<ProfileSelector type="const" name="human" />
+		<StateSelector type="const" name="crowd_goal2_state" />
+		<Generator type="explicit">
+			<Agent p_x="144.6" p_y="-32.01" />
+			<Agent p_x="144.6" p_y="-32.01" />
+		</Generator>
+	</AgentGroup>
+	<AgentGroup>
+		<ProfileSelector type="const" name="human" />
+		<StateSelector type="const" name="crowd_goal3_state" />
+		<Generator type="explicit">
+			<Agent p_x="145.3" p_y="-45.35" />
+			<Agent p_x="145.3" p_y="-45.35" />
+		</Generator>
+	</AgentGroup>
+	<AgentGroup>
+		<ProfileSelector type="const" name="human" />
+		<StateSelector type="const" name="crowd_goal4_state" />
+		<Generator type="explicit">
+			<Agent p_x="138.0" p_y="-41.74" />
+			<Agent p_x="138.0" p_y="-41.74" />
+		</Generator>
+	</AgentGroup>
+	<AgentGroup>
+		<ProfileSelector type="const" name="human" />
+		<StateSelector type="const" name="crowd_goal5_state" />
+		<Generator type="explicit">
+			<Agent p_x="130.8" p_y="-45.1" />
+			<Agent p_x="130.8" p_y="-45.1" />
+		</Generator>
+	</AgentGroup>
+</Experiment>
