@@ -1,0 +1,51 @@
+coordinate_system: wgs84
+crowd_sim:
+  agent_groups:
+    - {agents_name: [], agents_number: 0, group_id: 0, profile_selector: external_agent, state_selector: external_static, x: 0, y: 0}
+  agent_profiles:
+    - {ORCA_tau: 1, ORCA_tauObst: 0.40000000000000002, class: 1, max_accel: 0, max_angle_vel: 0, max_neighbors: 10, max_speed: 0, name: external_agent, neighbor_dist: 5, obstacle_set: 1, pref_speed: 0, r: 0.25}
+  enable: 0
+  goal_sets: []
+  model_types: []
+  obstacle_set: {class: 1, file_name: L1_navmesh.nav, type: nav_mesh}
+  states:
+    - {final: 1, goal_set: -1, name: external_static, navmesh_file_name: ""}
+  transitions: []
+  update_time_step: 0.10000000000000001
+graphs:
+  {}
+levels:
+  L1:
+    elevation: 0
+    lanes:
+      - [0, 1, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [1, 2, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [2, 3, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [3, 4, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+      - [4, 5, {bidirectional: [4, false], demo_mock_floor_name: [1, ""], demo_mock_lift_name: [1, ""], graph_idx: [2, 0], mutex: [1, ""], orientation: [1, ""], speed_limit: [3, 0]}]
+    layers:
+      campus_reference:
+        color: [0.114, 0.157, 1, 0.5]
+        filename: campus_reference.png
+        transform:
+          scale: 0.10000000000000001
+          translation_lat: 36.102231999999987
+          translation_lon: 129.38978379999998
+          yaw: -1.5707963267948966
+        visible: true
+    vertices:
+      - [129.38619276521, 36.1035746997893, 0, ""]
+      - [129.386179227014, 36.1035304646171, 0, ""]
+      - [129.38619433366, 36.1034740507898, 0, ""]
+      - [129.386123462567, 36.1032963008229, 0, ""]
+      - [129.386029383296, 36.1030670943728, 0, ""]
+      - [129.386023245997, 36.10303010504, 0, ""]
+    x_meters: 10
+    y_meters: 10
+lifts: {}
+name: campus
+parameters:
+  generate_crs: [1, EPSG:3414]
+  suggested_offset_x: [3, 22000]
+  suggested_offset_y: [3, 31500]
+reference_level_name: L1

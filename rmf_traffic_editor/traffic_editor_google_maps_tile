@@ -1,0 +1,18 @@
+[Open-RMF Traffic-Editor Google Maps 타일 적용 순서]
+
+1. rmf 패키지 내에서 rmf_traffic_editor/rmf_traffic_editor/gui로 이동한다.
+
+2. 기존 map_view.h 및 map_view.cpp 파일을 업데이트된 파일로 교체한다.
+
+3. colcon build --packages-select rmf_traffic_editor
+   source install/setup.bash
+   
+     를 통해 업데이트된 파일을 소스화한다.
+
+4. Traffic-Editor를 작동시킨 후 handong.building.yaml 파일을 불러와서 문제없이 Google Maps에 경로가 시각화되는 지 확인한다. (View -> Reset zoom level 기능을 활용한다.) 
+
+### 주의할 점 ###
+
+1. Map Tiles Api가 활성화 되어있는 계정을 바탕으로 API 키를 map_views.cpp의 request_tile 함수 내에 선언되어 있는 api_key에 입력한다.
+
+2. Google Maps 타일이 잘 적용되지 않는다면 ~/.cache/open-robotics/traffic-editor/tiles 내에 존재하는 타일을 삭제 후 Traffic-Editor를 작동시킨다.
