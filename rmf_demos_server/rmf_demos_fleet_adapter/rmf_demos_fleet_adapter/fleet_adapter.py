@@ -40,6 +40,8 @@ from rclpy.qos import qos_profile_system_default
 from .RobotClientAPI import RobotAPI, RobotUpdateData, RobotAPIResult
 from rmf_demos_fleet_adapter.utils.logger2 import info, warning, error, debug
 
+from rcl_interfaces.msg import ParameterEvent
+
 
 # ------------------------------------------------------------------------------
 # Main
@@ -132,7 +134,7 @@ def main(argv=sys.argv):
         robot_api_port = robots_config.get(robot_name, {}).get('port', fleet_mgr_yaml['port'])
         robot_api_user = robots_config.get(robot_name, {}).get('user', fleet_mgr_yaml['user'])
         robot_api_password = robots_config.get(robot_name, {}).get('password', fleet_mgr_yaml['password'])
-        fleet_name= config_yaml['rmf_fleet']['name']
+
         # Construct API prefix for each robot
         api_prefix = f"http://{robot_api_ip}:{robot_api_port}"
         info(f"Robot '{robot_name}' API prefix: {api_prefix}")
@@ -143,13 +145,49 @@ def main(argv=sys.argv):
             api_prefix,
             robot_api_user,
             robot_api_password,
-            fleet_name = fleet_name
+            fleet_name
         )
 
         robot_config = fleet_config.get_known_robot_configuration(robot_name)
+
+        # ✅ [2] Check if responsive_wait_<robot_name> parameter is set
+        param_key = f"responsive_wait_{robot_name}"
+        try:
+            node.declare_parameter(param_key)
+        except Exception:
+            pass  # Already declared
+        param_value = node.get_parameter(param_key).get_parameter_value()
+        if param_value.type == Parameter.Type.BOOL:
+            robot_config.set_responsive_wait(param_value.bool_value)
+            info(f"Overriding responsive_wait for {robot_name} to {param_value.bool_value}")
+
         robots[robot_name] = RobotAdapter(
             robot_name, robot_config, node, api, fleet_handle
         )
+    # ✅ Add this after all robots are initialized
+    def on_parameter_event(event: ParameterEvent):
+        for changed in event.changed_parameters:
+            name = changed.name
+            if name.startswith("responsive_wait_"):
+                robot_name = name.replace("responsive_wait_", "")
+                if robot_name in robots:
+                    value = changed.value.bool_value
+                    try:
+                        update_handle = robots[robot_name].update_handle
+                        if update_handle:
+                            update_handle.more().enable_responsive_wait(value)
+                            info(f"Updated responsive_wait for {robot_name} to {value} dynamically")
+                        else:
+                            warning(f"update_handle for {robot_name} not yet initialized")
+                    except Exception as e:
+                        error(f"Failed to update responsive_wait for {robot_name}: {e}")
+
+    node.create_subscription(
+        ParameterEvent,
+        '/parameter_events',
+        on_parameter_event,
+        qos_profile=qos_profile_system_default
+    )
 
     def update_loop():
         asyncio.set_event_loop(asyncio.new_event_loop())

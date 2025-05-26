@@ -48,7 +48,7 @@ rmf_fleet:
       destination_paths: [ [ "p1", "d1" ], [ "p1", "d2" ] ]
       recursive_paths: [ [ "p2", "s2" ] ]
 
-  zero_path: "/home/zeta/ws_server/install/rmf_demos_maps/share/rmf_demos_maps/maps/gl/nav_graphs/0.yaml"
+  zero_path: "/home/bcc/ws_server/install/rmf_demos_maps/share/rmf_demos_maps/maps/gl/nav_graphs/0.yaml"
 
 
 fleet_manager:

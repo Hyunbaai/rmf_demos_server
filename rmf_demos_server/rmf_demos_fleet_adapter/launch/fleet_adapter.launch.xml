@@ -9,6 +9,9 @@
   <arg name="easy_fleet" default="false" description="Set to true if using the EasyFullControl fleet adapter"/>
   <arg name="output" default="screen"/>
 
+  <arg name="responsive_wait_yellow" default="false"/>
+  <arg name="responsive_wait_green" default="false"/>
+
   <!-- Fleet manager -->
 <!--  <node pkg="rmf_demos_fleet_adapter"-->
 <!--        exec="fleet_manager"-->
@@ -39,6 +42,10 @@
 
         <param name="use_sim_time" value="$(var use_sim_time)"/>
         <param name="server_uri" value="$(var server_uri)"/>
+
+        <param name="responsive_wait_yellow" value="$(var responsive_wait_yellow)"/>
+        <param name="responsive_wait_green" value="$(var responsive_wait_green)"/>
+
       </node>
     </group>
   </group>
@@ -64,6 +71,10 @@
 
         <param name="use_sim_time" value="$(var use_sim_time)"/>
         <param name="server_uri" value="$(var server_uri)"/>
+
+        <param name="responsive_wait_yellow" value="$(var responsive_wait_yellow)"/>
+        <param name="responsive_wait_green" value="$(var responsive_wait_green)"/>
+
       </node>
     </group>
   </group>
