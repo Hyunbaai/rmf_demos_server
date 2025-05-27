@@ -39,7 +39,7 @@ rmf_fleet:
     #   charger: "o"
     # steer_yellow:
     #   charger: "y"
-    orange:
+    green:
       charger: "s1"
       destination_paths: [ [ "p1", "d1" ], [ "p1", "d2" ] ]
       recursive_paths: [ [ "p2", "s1" ] ]
